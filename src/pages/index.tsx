@@ -1,9 +1,11 @@
 import Image from 'next/image';
 
-import { Navbar } from '@/components/app/navbar';
+import { Navbar } from '@/components/navbar';
+import SEO from '@/components/seo';
 
 export default function Home() {
-  return (
+  return (<>
+    <SEO />
     <main className="bg-gray-200">
       <div className="h-[500px] w-full absolute top-[4em]">
         <Image
@@ -62,5 +64,5 @@ export default function Home() {
         </div>
       </div>
     </main>
-  );
+  </>);
 }

@@ -2,13 +2,9 @@ import Image from 'next/image';
 
 import { Navbar } from "@/components/app/navbar";
 
-export default function PageLayout({
-  children, // will be a page or nested layout
-}: {
-  children: React.ReactNode,
-}) {
+const Header = () => {
   return (
-    <section>
+    <header>
       {/* Include shared UI here e.g. a header or sidebar */}
       <div className="max-w-[70em] h-[4em] mx-auto flex justify-between pr-3.5">
         <div className="bg-gray-900 px-5 py-1 flex flex-col items-center justify-center">
@@ -34,9 +30,8 @@ export default function PageLayout({
           priority
         />
       </div>
-      <main className="bg-gray-50 max-w-[70em] mx-auto relative">
-        {children}
-      </main>
-    </section>
+    </header>
   );
-}
+};
+
+export default Header;

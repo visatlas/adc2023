@@ -1,4 +1,4 @@
-import { Footer } from '@/components/footer';
+import { Footer } from '@/components/app/footer';
 import './globals.css';
 
 export default function RootLayout({
