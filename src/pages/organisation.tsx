@@ -11,11 +11,11 @@ export default function Organisation() {
         {committee.map((item) => (
           <div className="mt-6 mb-12" key={item.type}>
             <h3 className="font-bold text-xl text-gray-600 mb-6 trackig-wide">{item.type}</h3>
-            <ul className="flex gap-5 mx-6">
+            <ul className="flex gap-5 mx-6 flex-wrap">
               {item.items.map((person) => (
-                <li className="flex w-[30em]" key={person.name}>
+                <li className="flex w-[20em] sm:w-[25em]" key={person.name}>
                   {person.image ? (
-                    <div className="rounded-lg overflow-hidden mr-3 w-[60px] h-[60px] bg-gray-200">
+                    <div className="rounded-lg overflow-hidden mr-3 min-w-[60px] min-h-[60px] w-[60px] h-[60px] bg-gray-200">
                       <Image src={`/images/committee/${person.image}`}
                         width={300}
                         height={300}

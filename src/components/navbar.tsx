@@ -7,13 +7,13 @@ export const Navbar = () => {
         <li className="text-sm font-bold uppercase tracking-wider hover:text-orange-600 duration-100">
           <Link className="px-2.5 py-2" href="/">Home</Link>
         </li>
-        <li className="text-sm font-bold uppercase tracking-wider text-gray-600">
+        <li className="text-sm font-bold uppercase tracking-wider text-gray-600 hidden md:block">
           <Link className="px-2.5 py-2" href="/">Submission</Link>
         </li>
-        <li className="text-sm font-bold uppercase tracking-wider text-gray-600">
+        <li className="text-sm font-bold uppercase tracking-wider text-gray-600 hidden md:block">
           <Link className="px-2.5 py-2" href="/">Program</Link>
         </li>
-        <li className="text-sm font-bold uppercase tracking-wider text-gray-600">
+        <li className="text-sm font-bold uppercase tracking-wider text-gray-600 hidden md:block">
           <Link className="px-2.5 py-2" href="/">Attend</Link>
         </li>
         <li className="text-sm font-bold uppercase tracking-wider hover:text-orange-600 duration-100">

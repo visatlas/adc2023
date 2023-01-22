@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import { Navbar } from "@/components/app/navbar";
+import { Navbar } from "@/components/navbar";
 
 const Header = () => {
   return (
