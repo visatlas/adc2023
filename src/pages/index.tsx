@@ -51,7 +51,7 @@ export default function Home() {
           <article className="">
 
             <h2 className="uppercase text-3xl font-bold text-orange-600 tracking-wide mb-5">About</h2>
-            <p>The <span className="font-semibold">Australasian Database Conference (ADC)</span> series is an annual forum for sharing the latest research progresses and novel applications of database systems, data management, data mining and data analytics for researchers and practitioners in these areas from Australia, New Zealand and in the world. The 34th edition of the Australasian Database Conference, ADC2023, will be held in Melbourne, Australia.
+            <p>The <span className="font-semibold">Australasian Database Conference (ADC)</span> series is an annual forum for sharing the latest research progresses and novel applications of database systems, data management, data mining and data analytics for researchers and practitioners in these areas from Australia, New Zealand and in the world. The 34th edition of the Australasian Database Conference, ADC 2023, will be held in Melbourne, Australia.
             </p>
             <h2 className="uppercase text-3xl font-bold text-orange-600 tracking-wide mb-5 mt-12">News</h2>
             <p>To be announced.</p>
@@ -68,7 +68,7 @@ export default function Home() {
             </ul>
             <h3 className="font-bold text-xl text-gray-600 mb-4 mt-6 trackig-wide">Conference Dates</h3>
             <ul className="list-disc list-inside">
-              <li><span className="font-semibold">ADC2023 Conference:</span> 27 - 29 October, 2023</li>
+              <li><span className="font-semibold">ADC 2023 Conference:</span> 27 - 29 October, 2023</li>
             </ul>
           </article>
         </div>
