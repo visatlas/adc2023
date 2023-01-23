@@ -11,7 +11,7 @@ export default function Organisation() {
         {committee.map((item) => (
           <div className="mt-6 mb-12" key={item.type}>
             <h3 className="font-bold text-xl text-gray-600 mb-6 trackig-wide">{item.type}</h3>
-            <ul className="flex gap-5 mx-6 flex-wrap">
+            <ul className="flex gap-x-10 gap-y-5 mx-6 flex-wrap">
               {item.items.map((person) => (
                 <li className="flex w-[20em] sm:w-[25em]" key={person.name}>
                   {person.image ? (
@@ -62,6 +62,7 @@ const committee: Committee = [
     "type": "General Chair",
     "items": [
       { "name": "Xiaofang Zhou", "affiliation": "Hong Kong University of Science and Technology", "image": "xiaofang-zhou.jpg" },
+      { "name": "Gill Dobbie", "affiliation": "University of Auckland", "image": "gill-dobbie.jpg" },
     ]
   },
   {
