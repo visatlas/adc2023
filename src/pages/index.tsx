@@ -34,7 +34,7 @@ export default function Home() {
               <div className="text-gray-800 relative mt-8 flex flex-col items-end mr-2.5">
                 <h2 className="font-bold tracking-wide text-2xl">Melbourne, Australia</h2>
                 <p className="">Melbourne Connect</p>
-                <p className="text-lg">27 - 29 October, 2023</p>
+                <p className="text-lg">1 - 3 November, 2023</p>
               </div>
             </div>
           </div>
@@ -46,7 +46,7 @@ export default function Home() {
           <div className="text-gray-800 flex-col mb-10 flex md:hidden">
             <h2 className="font-bold tracking-wide text-2xl">Melbourne, Australia</h2>
             <p className="">Melbourne Connect</p>
-            <p className="text-lg">27 - 29 October, 2023</p>
+            <p className="text-lg">1 - 3 November, 2023</p>
           </div>
           <article className="">
 
@@ -68,7 +68,7 @@ export default function Home() {
             </ul>
             <h3 className="font-bold text-xl text-gray-600 mb-4 mt-6 trackig-wide">Conference Dates</h3>
             <ul className="list-disc list-inside">
-              <li><span className="font-semibold">ADC 2023 Conference:</span> 27 - 29 October, 2023</li>
+              <li><span className="font-semibold">ADC 2023 Conference:</span> 1 - 3 November, 2023</li>
             </ul>
           </article>
         </div>

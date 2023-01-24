@@ -86,11 +86,11 @@ const committee: Committee = [
   {
     "type": "Publicity Chair", "items": [
       { "name": "Anh Dinh", "affiliation": "Deakin University", "image": "anh-dinh.jpeg" },
+      { "name": "Kaiqi Zhao", "affiliation": "University of Auckland", "image": "kaiqi-zhao.png" },
     ]
   },
   {
     "type": "Proceedings Chair", "items": [
-      { "name": "Kaiqi Zhao", "affiliation": "University of Auckland", "image": "kaiqi-zhao.png" },
       { "name": "Farhana Choudhury", "affiliation": "University of Melbourne", "image": "farhana-choudhury.jpeg" },
       { "name": "Zhengyi Yang", "affiliation": "University of New South Wales", "image": "zhengyi-yang.jpeg" },
     ]
@@ -100,7 +100,6 @@ const committee: Committee = [
       { "name": "Jianzhong Qi", "affiliation": "University of Melbourne", "image": "jianzhong-qi.jpeg" },
       { "name": "Aamir Cheema", "affiliation": "Monash University", "image": "aamir-cheema.jpeg" },
       { "name": "Jianxin Li", "affiliation": "Deakin University", "image": "jianxin-li.jpg" },
-
     ]
   },
   {
