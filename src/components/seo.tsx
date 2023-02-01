@@ -11,7 +11,7 @@ const SEO = ({ title, description }: PageProps) => {
   const router = useRouter();
   const pageSEO = {
     title: title || metadata.title,
-    fullTitle: router.asPath === "/" ? metadata.longTitle : `${title} | ${metadata.title}`,
+    fullTitle: router.asPath === "/" ? metadata.longTitle : (title ? `${title} | ${metadata.title}` : metadata.longTitle),
     description: description || metadata.description,
     thumbnail: metadata.thumbnail,
     pageUrl: `${metadata.url}${router.asPath || ""}`,
