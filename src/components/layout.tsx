@@ -8,7 +8,7 @@ const Layout = ({ children }: { children: React.ReactNode; }) => {
     {router.asPath !== "/" && (
       <Header />
     )}
-    <main className="bg-gray-50 max-w-[70em] mx-auto relative">
+    <main className="bg-gray-50 max-w-[70em] w-[70em] min-h-[500px] mx-auto relative">
       {children}
     </main>
   </>);
