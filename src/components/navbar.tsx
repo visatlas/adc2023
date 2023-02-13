@@ -40,13 +40,13 @@ export const Navbar = () => {
                 <Menu.Item>
                   {({ active }) => (<Link href="/encore-track"
                     className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 font-medium')}>
-                    Encore track
+                    Encore Track
                   </Link>)}
                 </Menu.Item>
                 <Menu.Item>
                   {({ active }) => (<Link href="/shepherding-track"
                     className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 font-medium')}>
-                    Shepherding track
+                    Shepherding Track
                   </Link>)}
                 </Menu.Item>
               </Menu.Items>
