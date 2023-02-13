@@ -32,9 +32,9 @@ export const Navbar = () => {
               leave="transition ease-in duration-75" leaveFrom="transform opacity-100 scale-100" leaveTo="transform opacity-0 scale-95">
               <Menu.Items className="absolute left-0 z-10 mt-0 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                 <Menu.Item>
-                  {({ active }) => (<Link href="/main-track"
+                  {({ active }) => (<Link href="/research-track"
                     className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 font-medium')}>
-                    Main Track
+                    Research Track
                   </Link>)}
                 </Menu.Item>
                 <Menu.Item>
@@ -91,7 +91,7 @@ export const Navbar = () => {
                   <span className="py-2 block">Program</span>
                 </li>
                 <li className="text-sm font-bold uppercase tracking-wider hover:text-orange-600 text-gray-100 duration-100">
-                  <Link className="py-2 block" href="/main-track">Main Track</Link>
+                  <Link className="py-2 block" href="/research-track">Research Track</Link>
                 </li>
                 <li className="text-sm font-bold uppercase tracking-wider hover:text-orange-600 text-gray-100 duration-100">
                   <Link className="py-2 block" href="/encore-track">Encore Track</Link>
