@@ -6,7 +6,6 @@ const nextConfig = {
     appDir: false,
   },
   // assetPrefix: isProd ? '/adc2023.github.io/' : '',
-  assetPrefix: '',
   images: {
     unoptimized: true,
   },

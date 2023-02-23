@@ -5,12 +5,12 @@ import Image from 'next/image';
 export default function Organisation() {
   return (<Layout>
     <SEO title="Organisation" />
-    <div className="px-5">
+    <div className="px-5 md:px-8 lg:px-10 w-full">
       <h2 className="uppercase text-3xl font-bold text-orange-600 tracking-wide mb-5 pt-10">Organisation</h2>
       <article className="pb-5">
         {committee.map((item) => (
           <div className="mt-6 mb-12" key={item.type}>
-            <h3 className="font-bold text-xl text-gray-600 mb-6 trackig-wide">{item.type}</h3>
+            <h3 className="font-bold text-xl text-gray-600 mb-6">{item.type}</h3>
             <ul className="flex gap-x-10 gap-y-5 mx-6 flex-wrap">
               {item.items.map((person) => (
                 <li className="flex w-[20em] sm:w-[25em]" key={person.name}>

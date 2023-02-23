@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="max-w-[70em] mx-auto pt-8 pb-6 w-full">
+    <footer className="max-w-[70em] mx-auto pt-8 pb-24 w-full">
       <div className="mx-5 flex flex-col-reverse md:flex-row lg:px-0 items-start justify-between text-gray-600">
         <small className=""><span className="font-defaultSans">&copy;</span> 2023 Australasian Database Conference. <br className="block sm:hidden" />
           All Rights Reserved.

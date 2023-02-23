@@ -70,13 +70,14 @@ export const Navbar = () => {
         {isOpen && (
           <div className="absolute top-0 left-0 z-10 bg-gray-900 w-full pb-4">
             <div className="flex">
-              <div className="bg-gray-900 px-5 py-1 flex space-x-2 items-center justify-center">
+              <div className="bg-gray-900 px-5 py-1 flex flex-col items-center justify-center">
                 <h1 className="text-3xl font-bold block">
                   <span className="text-gray-200">A</span>
                   <span className="text-gray-300">D</span>
                   <span className="text-gray-400">C</span>
                   <span className="text-orange-600">2023</span>
                 </h1>
+                <p className="text-gray-500 font-semibold block text-xs mt-[-0.2em]">Melbourne, AU</p>
               </div>
               <div className="h-[4em] flex justify-end w-full">
                 <XMarkIcon className="w-12 h-12 pr-4 pt-4 block text-gray-100 hover:text-orange-600 cursor-pointer" onClick={() => setIsOpen(false)} />
