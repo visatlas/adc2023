@@ -49,11 +49,11 @@ export default function ResearchTrack() {
           <li>ADC follows single blind review which means that authors&lsquo; information must be included in the submission.</li>
         </ul>
         <h3 className="font-bold text-2xl text-orange-600 mt-10 mb-6">Important Dates</h3>
-        <p>23:59 AoE time</p>
+        {/* <p>23:59 AoE time</p> */}
         <ul className="list-disc list-inside mt-2">
-          <li><strong>Full Paper Deadline:</strong> July 15, 2023</li>
-          <li><strong>Author Notification:</strong> Sep 1, 2023</li>
-          <li><strong>Camera-ready Deadline:</strong> Sep 15, 2023</li>
+          <li><strong className="font-semibold">Full Paper Deadline:</strong> &nbsp;15 July, 2023</li>
+          <li><strong className="font-semibold">Author Notification:</strong> &nbsp;1 Sep, 2023</li>
+          <li><strong className="font-semibold">Camera-Ready Deadline:</strong> &nbsp;15 Sep, 2023</li>
         </ul>
         <h3 className="font-bold text-2xl text-orange-600 mt-10 mb-6">Submissions</h3>
         <ul className="list-disc list-inside space-y-3">
