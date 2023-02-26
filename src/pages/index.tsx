@@ -59,7 +59,15 @@ export default function Home() {
               database theory and foundation, techniques, and applications.
             </p>
             <h2 className="uppercase text-3xl font-bold text-orange-600 tracking-wide mb-5 mt-12">News</h2>
-            <p>To be announced.</p>
+            <ul className="list-disc list-inside space-y-5">
+              <li>
+                <strong>24 Feb, 2023:</strong> &nbsp;ADC 2023 has launched a brand-new and exciting track: Encore Track. This track showcases relevant research and promotes interaction among researchers across disciplines. Recently accepted papers by top venues are invited to be presented in the format of posters or lightning talks at ADC 2023. We welcome the database and sibling communities to contribute their published research work to this track for promotion.
+              </li>
+              <li>
+                <span><strong>24 Feb, 2023:</strong> &nbsp;ADC 2023 has launched a brand-new and exciting track: Shepherding Track. This trackaimsat providing pre/early-PhDs and honours/master students with publication opportunities for their research outcomes. This track will enlist early-career researchers as mentors to shepherd students to improve their submissions in a multi-round style. We welcome the database and sibling communities to submit their research work to this track.</span>
+                <p className="mt-4">We call for self-nominated shepherd mentor participation. If you are willing to be joining the shepherding committee as an ECR, please contact r.qiu@uq.edu.au</p>
+              </li>
+            </ul>
             <h2 className="uppercase text-3xl font-bold text-orange-600 tracking-wide mb-5 mt-12">Important Dates</h2>
             <h3 className="font-bold text-xl text-gray-600 mb-4 trackig-wide">Research Paper</h3>
             <ul className="list-disc list-inside">
