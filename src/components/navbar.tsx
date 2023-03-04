@@ -49,6 +49,18 @@ export const Navbar = () => {
                     Shepherding Track
                   </Link>)}
                 </Menu.Item>
+                <Menu.Item>
+                  {({ active }) => (<Link href="/call-for-tutorials"
+                    className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 font-medium')}>
+                    Call for Tutorials
+                  </Link>)}
+                </Menu.Item>
+                <Menu.Item>
+                  {({ active }) => (<Link href="/call-for-workshops"
+                    className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 font-medium')}>
+                    Call for Workshops
+                  </Link>)}
+                </Menu.Item>
               </Menu.Items>
             </Transition>
           </Menu>
@@ -99,6 +111,12 @@ export const Navbar = () => {
                 </li>
                 <li className="text-sm font-bold uppercase tracking-wider hover:text-orange-600 text-gray-100 duration-100">
                   <Link className="py-2 block" href="/shepherding-track">Shepherding Track</Link>
+                </li>
+                <li className="text-sm font-bold uppercase tracking-wider hover:text-orange-600 text-gray-100 duration-100">
+                  <Link className="py-2 block" href="/call-for-tutorials">Call for Tutorials</Link>
+                </li>
+                <li className="text-sm font-bold uppercase tracking-wider hover:text-orange-600 text-gray-100 duration-100">
+                  <Link className="py-2 block" href="/call-for-workshops">Call for Workshops</Link>
                 </li>
                 <li className="text-sm font-bold uppercase tracking-wider text-gray-600 pointer-events-none">
                   <span className="py-2 block">Attend</span>
