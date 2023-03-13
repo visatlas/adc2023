@@ -50,7 +50,7 @@ export default function Home() {
           </div>
           <article className="px-0 lg:px-2 pb-6">
             <h2 className="uppercase text-3xl font-bold text-orange-600 tracking-wide mb-5">About</h2>
-            <p>
+            <p className="mb-4">
               The <span className="font-semibold">Australasian Database Conference (ADC)</span> series is an annual
               forum for sharing the latest research progresses and novel applications of database
               systems, data management, data mining and data analytics for researchers and practitioners in these areas
@@ -58,6 +58,7 @@ export default function Home() {
               ADC 2023, will be held in Melbourne, Australia. We welcome contributions related to all aspects of
               database theory and foundation, techniques, and applications.
             </p>
+            <p className="font-semibold">You can view the ADC 2023 posters here: <a className="underline text-sky-700" href="/ADC 2023 Poster.pdf" target="_blank" rel="noreferrer">PDF version</a>, <a className="underline text-sky-700" href="/ADC 2023 Poster.png" target="_blank" rel="noreferrer">PNG version</a>.</p>
             <h2 className="uppercase text-3xl font-bold text-orange-600 tracking-wide mb-5 mt-12">News</h2>
             <ul className="list-disc list-inside space-y-5">
               <li>
