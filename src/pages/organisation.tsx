@@ -84,6 +84,11 @@ const committee: Committee = [
     ]
   },
   {
+    "type": "Tutorial & Workshop Chair", "items": [
+      { "name": "Hui Luo", "affiliation": "University of Wollongong", "image": "hui-luo.png" },
+    ]
+  },
+  {
     "type": "Publicity Chair", "items": [
       { "name": "Anh Dinh", "affiliation": "Deakin University", "image": "anh-dinh.jpeg" },
       { "name": "Kaiqi Zhao", "affiliation": "University of Auckland", "image": "kaiqi-zhao.png" },

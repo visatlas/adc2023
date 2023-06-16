@@ -25,6 +25,11 @@ export default function CallForWorkshops() {
             <li>Potential (or accepted) speakers or keynotes.</li>
             <li>Historical information about each of the most recent previous editions of the workshop (if this is not its first edition).</li>
           </ul>
+          <h3 className="font-bold text-2xl text-orange-600 mt-10 mb-4">Contact</h3>
+          <p className="mb-4">For questions regarding the submission, please email the workshop chair:</p>
+          <ul className="list-disc list-inside space-y-2">
+            <li><strong>Hui Luo</strong> (<a className="underline text-sky-700" href="mailto:huil@uow.edu.au" target="_blank" rel="noreferrer">huil@uow.edu.au</a>, University of Wollongong)</li>
+          </ul>
         </article>
       </div>
     </Layout>

@@ -31,6 +31,11 @@ export default function CallForTutorials() {
             <li>Identification of any other venues in which all or part of the tutorial has been or will be presented.</li>
             <li>Hands-on Tutorial: a list of hardware/software requirements and instructions to attendees.</li>
           </ul>
+          <h3 className="font-bold text-2xl text-orange-600 mt-10 mb-4">Contact</h3>
+          <p className="mb-4">For questions regarding the submission, please email the tutorial chair:</p>
+          <ul className="list-disc list-inside space-y-2">
+            <li><strong>Hui Luo</strong> (<a className="underline text-sky-700" href="mailto:huil@uow.edu.au" target="_blank" rel="noreferrer">huil@uow.edu.au</a>, University of Wollongong)</li>
+          </ul>
         </article>
       </div>
     </Layout>
