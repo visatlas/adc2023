@@ -72,7 +72,7 @@ export default function Home() {
             <h2 className="uppercase text-3xl font-bold text-orange-600 tracking-wide mb-5 mt-12">Important Dates</h2>
             <h3 className="font-bold text-xl text-gray-600 mb-4 trackig-wide">Research Paper</h3>
             <ul className="list-disc list-inside">
-              <li><strong className="font-semibold">Full Paper Deadline:</strong> &nbsp;15 July, 2023</li>
+              <li><strong className="font-semibold">Full Paper Deadline:</strong> &nbsp;1 Aug, 2023</li>
               <li><strong className="font-semibold">Author Notification:</strong> &nbsp;1 Sep, 2023</li>
               <li><strong className="font-semibold">Camera-Ready Deadline:</strong> &nbsp;15 Sep, 2023</li>
             </ul>

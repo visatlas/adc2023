@@ -51,7 +51,7 @@ export default function ResearchTrack() {
         <h3 className="font-bold text-2xl text-orange-600 mt-10 mb-6">Important Dates</h3>
         {/* <p>23:59 AoE time</p> */}
         <ul className="list-disc list-inside mt-2">
-          <li><strong className="font-semibold">Full Paper Deadline:</strong> &nbsp;15 July, 2023</li>
+          <li><strong className="font-semibold">Full Paper Deadline:</strong> &nbsp;1 Aug, 2023</li>
           <li><strong className="font-semibold">Author Notification:</strong> &nbsp;1 Sep, 2023</li>
           <li><strong className="font-semibold">Camera-Ready Deadline:</strong> &nbsp;15 Sep, 2023</li>
         </ul>
