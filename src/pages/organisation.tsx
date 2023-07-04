@@ -75,7 +75,7 @@ const committee: Committee = [
   {
     "type": "Program Chair - Encore Track", "items": [
       { "name": "Junhao Gan", "affiliation": "University of Melbourne", "image": "junhao-gan.jpeg" },
-      { "name": "Shixun Huang", "affiliation": "RMIT", "image": "shixun-huang.jpeg" },
+      { "name": "Shixun Huang", "affiliation": "University of Wollongong", "image": "shixun-huang.jpeg" },
     ]
   },
   {
