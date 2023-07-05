@@ -20,7 +20,7 @@ export default function EncoreTrack() {
         <p>Submissions is <strong>continuous</strong> until 1 Sep, 2023.</p>
         <p>Notification: within 14 days post-submission.</p>
         <h3 className="font-bold text-2xl text-orange-600 mt-10 mb-6">Enquiries</h3>
-        <p>Contact us at <a className="underline text-sky-700" href="mailto:shixun.huang@rmit.edu.au" target="_blank" rel="noreferrer">shixun.huang@rmit.edu.au</a></p>
+        <p>Contact us at <a className="underline text-sky-700" href="mailto:shixunh@uow.edu.au" target="_blank" rel="noreferrer">shixunh@uow.edu.au</a></p>
       </article>
     </div>
   </Layout>);
