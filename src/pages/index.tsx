@@ -73,9 +73,7 @@ export default function Home() {
             <h3 className="font-bold text-xl text-gray-600 mb-4 trackig-wide">Research Paper</h3>
             <ul className="list-disc list-inside">
               <li>
-                <strong className="font-semibold md:w-52 md:inline-block">Full Paper Deadline:</strong> &nbsp;1 Aug, 2023&nbsp;&nbsp;
-                <span className="py-0.5 px-2 rounded-full bg-gray-300 text-gray-600 font-sans font-medium text-xs">Updated</span>
-              </li>
+                <strong className="font-semibold md:w-52 md:inline-block">Full Paper Deadline:</strong> &nbsp;1 Aug, 2023</li>
               <li><strong className="font-semibold md:w-52 md:inline-block">Author Notification:</strong> &nbsp;1 Sep, 2023</li>
               <li><strong className="font-semibold md:w-52 md:inline-block">Camera-Ready Deadline:</strong> &nbsp;15 Sep, 2023</li>
             </ul>
@@ -85,7 +83,7 @@ export default function Home() {
             </ul>
             <h3 className="font-bold text-xl text-gray-600 mb-4 mt-6 trackig-wide">Shepherding Paper</h3>
             <ul className="list-disc list-inside">
-              <li><strong className="font-semibold md:w-52 md:inline-block">Submission Deadline:</strong> &nbsp;1 July, 2023&nbsp;&nbsp;
+              <li><strong className="font-semibold md:w-52 md:inline-block">Submission Deadline:</strong> &nbsp;1 Aug, 2023&nbsp;&nbsp;
                 <span className="py-0.5 px-2 rounded-full bg-gray-300 text-gray-600 font-sans font-medium text-xs">Updated</span>
               </li>
               <li><strong className="font-semibold md:w-52 md:inline-block">Camera-Ready Deadline:</strong> &nbsp;15 Sep, 2023</li>
