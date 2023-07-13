@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { Fragment, useState } from 'react';
 import { Disclosure, Menu, Transition } from '@headlessui/react';
 import { Bars3Icon, BellIcon, XMarkIcon, ChevronDownIcon } from '@heroicons/react/24/outline';
+import { ChevronLeftIcon, ChevronDownIcon as SmallChevronDownIcon } from '@heroicons/react/20/solid';
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ');
@@ -10,6 +11,7 @@ function classNames(...classes: string[]) {
 export const Navbar = () => {
 
   const [isOpen, setIsOpen] = useState(false);
+  const [isSubmissionOpen, setIsSubmissionOpen] = useState(false);
 
   return (
     <>
@@ -30,37 +32,41 @@ export const Navbar = () => {
             <Transition as={Fragment}
               enter="transition ease-out duration-100" enterFrom="transform opacity-0 scale-95" enterTo="transform opacity-100 scale-100"
               leave="transition ease-in duration-75" leaveFrom="transform opacity-100 scale-100" leaveTo="transform opacity-0 scale-95">
-              <Menu.Items className="absolute left-0 z-10 mt-0 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-                <Menu.Item>
-                  {({ active }) => (<Link href="/research-track"
-                    className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 font-medium')}>
-                    Research Track
-                  </Link>)}
-                </Menu.Item>
-                <Menu.Item>
-                  {({ active }) => (<Link href="/encore-track"
-                    className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 font-medium')}>
-                    Encore Track
-                  </Link>)}
-                </Menu.Item>
-                <Menu.Item>
-                  {({ active }) => (<Link href="/shepherding-track"
-                    className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 font-medium')}>
-                    Shepherding Track
-                  </Link>)}
-                </Menu.Item>
-                <Menu.Item>
-                  {({ active }) => (<Link href="/call-for-tutorials"
-                    className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 font-medium')}>
-                    Call for Tutorials
-                  </Link>)}
-                </Menu.Item>
-                <Menu.Item>
-                  {({ active }) => (<Link href="/call-for-workshops"
-                    className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 font-medium')}>
-                    Call for Workshops
-                  </Link>)}
-                </Menu.Item>
+              <Menu.Items className="absolute left-0 z-10 mt-0 w-48 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none divide-y divide-gray-100">
+                <div className='px-1 py-1'>
+                  <Menu.Item>
+                    {({ active }) => (<Link href="/research-track"
+                      className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 font-medium rounded-md')}>
+                      Research Track
+                    </Link>)}
+                  </Menu.Item>
+                  <Menu.Item>
+                    {({ active }) => (<Link href="/encore-track"
+                      className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 font-medium rounded-md')}>
+                      Encore Track
+                    </Link>)}
+                  </Menu.Item>
+                  <Menu.Item>
+                    {({ active }) => (<Link href="/shepherding-track"
+                      className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 font-medium rounded-md')}>
+                      Shepherding Track
+                    </Link>)}
+                  </Menu.Item>
+                </div>
+                <div className='px-1 py-1'>
+                  <Menu.Item>
+                    {({ active }) => (<Link href="/call-for-tutorials"
+                      className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 font-medium rounded-md')}>
+                      Call for Tutorials
+                    </Link>)}
+                  </Menu.Item>
+                  <Menu.Item>
+                    {({ active }) => (<Link href="/call-for-workshops"
+                      className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 font-medium rounded-md')}>
+                      Call for Workshops
+                    </Link>)}
+                  </Menu.Item>
+                </div>
               </Menu.Items>
             </Transition>
           </Menu>
@@ -95,34 +101,48 @@ export const Navbar = () => {
                 <XMarkIcon className="w-12 h-12 pr-4 pt-4 block text-gray-100 hover:text-orange-600 cursor-pointer" onClick={() => setIsOpen(false)} />
               </div>
             </div>
-            <div className="">
-              <ul className="flex flex-col items-end pr-6">
-                <li className="text-sm font-bold uppercase tracking-wider hover:text-orange-600 text-gray-100 duration-100">
-                  <Link className="py-2 block" href="/">Home</Link>
+
+            <div className="flex justify-end w-full">
+              <ul className="flex flex-col items-end w-[15rem]">
+                <li className="text-sm w-full font-bold uppercase tracking-wider hover:text-orange-600 text-gray-100 duration-100">
+                  <Link className="py-2 block pr-6 w-full text-end" href="/">Home</Link>
                 </li>
-                <li className="text-sm font-bold uppercase tracking-wider text-gray-600 pointer-events-none">
-                  <span className="py-2 block">Program</span>
+                <li className="text-sm w-full font-bold uppercase tracking-wider text-gray-600 pointer-events-none">
+                  <span className="py-2 block pr-6 w-full text-end">Program</span>
                 </li>
-                <li className="text-sm font-bold uppercase tracking-wider hover:text-orange-600 text-gray-100 duration-100">
-                  <Link className="py-2 block" href="/research-track">Research Track</Link>
+                <li className="group w-full">
+                  <button className={`py-2 pr-6 text-sm w-full duration-100 font-bold uppercase tracking-wider group-hover:text-orange-600 flex items-center gap-x-1 justify-end ${isSubmissionOpen ? 'text-orange-600' : 'text-gray-100'}`} onClick={() => setIsSubmissionOpen(!isSubmissionOpen)}>
+                    {isSubmissionOpen ? <SmallChevronDownIcon className="w-5 h-5 text-orange-600 duration-100" /> : <ChevronLeftIcon className="w-5 h-5 group-hover:text-orange-600 duration-100" />}
+                    <span>Submission</span>
+                  </button>
                 </li>
-                <li className="text-sm font-bold uppercase tracking-wider hover:text-orange-600 text-gray-100 duration-100">
-                  <Link className="py-2 block" href="/encore-track">Encore Track</Link>
+
+                {isSubmissionOpen && (
+                  <>
+                    <div className="h-[1px] w-full bg-orange-600"></div>
+                    <li className="text-sm w-full font-bold tracking-wide hover:text-orange-600 text-gray-100 duration-100 bg-gray-800">
+                      <Link className="py-2 block pr-6 w-full text-end" href="/research-track">Research Track</Link>
+                    </li>
+                    <li className="text-sm w-full font-bold tracking-wide hover:text-orange-600 text-gray-100 duration-100 bg-gray-800">
+                      <Link className="py-2 block pr-6 w-full text-end" href="/encore-track">Encore Track</Link>
+                    </li>
+                    <li className="text-sm w-full font-bold tracking-wide hover:text-orange-600 text-gray-100 duration-100 bg-gray-800">
+                      <Link className="py-2 block pr-6 w-full text-end" href="/shepherding-track">Shepherding Track</Link>
+                    </li>
+                    <li className="text-sm w-full font-bold tracking-wide hover:text-orange-600 text-gray-100 duration-100 bg-gray-800">
+                      <Link className="py-2 block pr-6 w-full text-end" href="/call-for-tutorials">Call for Tutorials</Link>
+                    </li>
+                    <li className="text-sm w-full font-bold tracking-wide hover:text-orange-600 text-gray-100 duration-100 bg-gray-800">
+                      <Link className="py-2 block pr-6 w-full text-end" href="/call-for-workshops">Call for Workshops</Link>
+                    </li>
+                  </>
+                )}
+
+                <li className="text-sm w-full font-bold uppercase tracking-wider text-gray-600 pointer-events-none">
+                  <span className="py-2 block pr-6 w-full text-end">Attend</span>
                 </li>
-                <li className="text-sm font-bold uppercase tracking-wider hover:text-orange-600 text-gray-100 duration-100">
-                  <Link className="py-2 block" href="/shepherding-track">Shepherding Track</Link>
-                </li>
-                <li className="text-sm font-bold uppercase tracking-wider hover:text-orange-600 text-gray-100 duration-100">
-                  <Link className="py-2 block" href="/call-for-tutorials">Call for Tutorials</Link>
-                </li>
-                <li className="text-sm font-bold uppercase tracking-wider hover:text-orange-600 text-gray-100 duration-100">
-                  <Link className="py-2 block" href="/call-for-workshops">Call for Workshops</Link>
-                </li>
-                <li className="text-sm font-bold uppercase tracking-wider text-gray-600 pointer-events-none">
-                  <span className="py-2 block">Attend</span>
-                </li>
-                <li className="text-sm font-bold uppercase tracking-wider hover:text-orange-600 text-gray-100 duration-100">
-                  <Link className="py-2 block" href="/organisation">Organisation</Link>
+                <li className="text-sm w-full font-bold uppercase tracking-wider hover:text-orange-600 text-gray-100 duration-100">
+                  <Link className="py-2 block pr-6 w-full text-end" href="/organisation">Organisation</Link>
                 </li>
               </ul>
             </div>
