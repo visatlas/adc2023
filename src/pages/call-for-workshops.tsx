@@ -17,7 +17,7 @@ export default function CallForWorkshops() {
             <li>Workshop title.</li>
             <li>Organisers.</li>
             <li>Contact information.</li>
-            <li>A description of the workshop&lsquo;s topic and its goals.</li>
+            <li>A description of the workshop&rsquo;s topic and its goals.</li>
             <li>Desired workshop format, including preferred date and duration.</li>
             <li>A description of the submission review process, including key dates and coverage of how conflicts of interest are handled.</li>
             <li>Plans for publicity.</li>

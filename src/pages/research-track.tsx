@@ -39,14 +39,14 @@ export default function ResearchTrack() {
         <ul className="list-disc list-inside space-y-3">
           <li>Submitted papers must be original contributions and cannot be under review for any other forum.
             The accepted papers will be published in the conference proceedings, which will form a volume in
-            the Springer&lsquo;s Lecture Notes in Computer Science series.</li>
+            the Springer&rsquo;s Lecture Notes in Computer Science series.</li>
           <li>All submitted papers must be in English and conform to the formatting instructions for the Lecture
             Notes in Computer Science (LNCS) including references and figures.</li>
           <li>The format style files are available at <a className="underline text-sky-700" href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines" target="_blank" rel="noreferrer">LNCS Authors Instructions Page</a>.</li>
-          <li>Authors should consult Springer&lsquo;s authors&lsquo; guidelines and use their proceedings templates, either for LaTeX or for Word, for the preparation of their papers. Springer encourages authors to include their ORCIDs in their papers. In addition, the corresponding author of each paper, acting on behalf of all of the authors of that paper, must complete and sign a Consent-to-Publish form. The corresponding author signing the copyright form should match the corresponding author marked on the paper. Once the files have been sent to Springer, changes relating to the authorship of the papers cannot be made.</li>
+          <li>Authors should consult Springer&rsquo;s authors&rsquo; guidelines and use their proceedings templates, either for LaTeX or for Word, for the preparation of their papers. Springer encourages authors to include their ORCIDs in their papers. In addition, the corresponding author of each paper, acting on behalf of all of the authors of that paper, must complete and sign a Consent-to-Publish form. The corresponding author signing the copyright form should match the corresponding author marked on the paper. Once the files have been sent to Springer, changes relating to the authorship of the papers cannot be made.</li>
           <li>Submitted files must be in PDF, where the following page limits apply: <span className="font-bold">12 pages for research full papers, and 4 pages for demonstration proposals</span>.</li>
           <li>Each paper will be judged on its originality, significance, technical quality, relevance to ADC, and presentation.</li>
-          <li>ADC follows single blind review which means that authors&lsquo; information must be included in the submission.</li>
+          <li>ADC follows single blind review which means that authors&rsquo; information must be included in the submission.</li>
         </ul>
         <h3 className="font-bold text-2xl text-orange-600 mt-10 mb-6">Important Dates</h3>
         {/* <p>23:59 AoE time</p> */}
