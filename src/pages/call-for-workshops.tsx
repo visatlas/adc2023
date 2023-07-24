@@ -9,7 +9,7 @@ export default function CallForWorkshops() {
         <h2 className="mt-10 md:mt-14 uppercase text-3xl font-bold text-orange-600 tracking-wide mb-8">Call for Workshops</h2>
         <article className="pb-10">
           <p className="mb-4">We invite proposals for workshops to be collocated with the ADC 2023 conference. The organisers of accepted workshops are required to announce the workshop and call for papers, solicit submissions, and conduct the reviewing process.</p>
-          <p className="mb-4"><strong className="font-semibold">Submission Deadline:</strong> May 1, 2023, 23:59 AoE Time</p>
+          <p className="mb-4"><strong className="font-semibold">Submission Deadline:</strong> May 1, 2023 (23:59 <a className="underline" href="https://www.timeanddate.com/time/zones/aest" target="_blank" rel="noreferrer">AEST UTC+10</a>)</p>
           <p><strong className="font-semibold">Notification Date:</strong> May 7, 2023</p>
           <h3 className="font-bold text-2xl text-orange-600 mt-10 mb-6">Submission Guidelines</h3>
           <p className="mb-4">Workshop proposals should be submitted via e-mail to Workshop Track Chair. Proposals must be in pdf and include the following (in the order given):</p>

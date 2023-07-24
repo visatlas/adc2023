@@ -15,7 +15,7 @@ export default function CallForTutorials() {
             <li><strong className="font-semibold">Hands-on lecture style:</strong>  in-depth hands-on training on cutting-edge systems and tools of relevance to the database community.</li>
             <li><strong className="font-semibold">Primer:</strong> a more fundamental introduction to an area less familiar to the database community that has potential impact on database research or could benefit from database support.</li>
           </ul>
-          <p className="mb-4"><strong className="font-semibold">Submission Deadline:</strong> Sep 1, 2023 (23:59 AoE Time)</p>
+          <p className="mb-4"><strong className="font-semibold">Submission Deadline:</strong> Sep 1, 2023 (23:59 <a className="underline" href="https://www.timeanddate.com/time/zones/aest" target="_blank" rel="noreferrer">AEST UTC+10</a>)</p>
           <p><strong className="font-semibold">Notification Date:</strong> Sep 7, 2023</p>
           <h3 className="font-bold text-2xl text-orange-600 mt-10 mb-6">Submission Guidelines</h3>
           <p className="mb-4">Tutorial submissions should be submitted electronically via e-mail to the Tutorial Chair.</p>

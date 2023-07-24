@@ -49,11 +49,10 @@ export default function ResearchTrack() {
           <li>ADC follows single blind review which means that authors&rsquo; information must be included in the submission.</li>
         </ul>
         <h3 className="font-bold text-2xl text-orange-600 mt-10 mb-6">Important Dates</h3>        
-        {/* <p>All submission deadlines are at 23:59 in <a className="underline" href="https://www.timeanddate.com/time/zones/aest" target="_blank" rel="noreferrer">Australian Eastern Standard Time (UTC+10)</a>.</p> */}
         <ul className="list-disc list-inside mt-2">
-          <li><strong className="font-semibold">Full Paper Deadline:</strong> &nbsp;1 Aug, 2023</li>
+          <li><strong className="font-semibold">Full Paper Deadline:</strong> &nbsp;1 Aug, 2023 (23:59 <a className="underline" href="https://www.timeanddate.com/time/zones/aest" target="_blank" rel="noreferrer">AEST UTC+10</a>)</li>
           <li><strong className="font-semibold">Author Notification:</strong> &nbsp;1 Sep, 2023</li>
-          <li><strong className="font-semibold">Camera-Ready Deadline:</strong> &nbsp;15 Sep, 2023</li>
+        <li><strong className="font-semibold">Camera-Ready Deadline:</strong> &nbsp;15 Sep, 2023 (23:59 <a className="underline" href="https://www.timeanddate.com/time/zones/aest" target="_blank" rel="noreferrer">AEST UTC+10</a>)</li>
         </ul>
         <h3 className="font-bold text-2xl text-orange-600 mt-10 mb-6">Submissions</h3>
         <ul className="list-disc list-inside space-y-3">

@@ -17,7 +17,7 @@ export default function EncoreTrack() {
           submit the information via this <a className="underline text-sky-700" href="https://forms.gle/cMymFUGNdjYmqYW4A" target="_blank" rel="noreferrer">Google Form</a>. Authors are required to submit a copy of the published paper in a PDF file-format, as well as the official URL to the publisher&rsquo;s copy. If the paper has only received the acceptance notice but not been officially published, please also submit evidence of the paper&rsquo;s acceptance (e.g., acceptance notification e-mail) in a PDF file-format.</p>
         <h3 className="font-bold text-2xl text-orange-600 mt-10 mb-6">Important Dates</h3>
         {/* <p className="mb-4">23:59 AoE time</p> */}
-        <p>Submissions is <strong>continuous</strong> until 1 Sep, 2023.</p>
+        <p>Submissions is <strong>continuous</strong> until 1 Sep, 2023 (23:59 <a className="underline" href="https://www.timeanddate.com/time/zones/aest" target="_blank" rel="noreferrer">AEST UTC+10</a>).</p>
         <p>Notification: within 14 days post-submission.</p>
         <h3 className="font-bold text-2xl text-orange-600 mt-10 mb-6">Enquiries</h3>
         <p>Contact us at <a className="underline text-sky-700" href="mailto:shixunh@uow.edu.au" target="_blank" rel="noreferrer">shixunh@uow.edu.au</a></p>
