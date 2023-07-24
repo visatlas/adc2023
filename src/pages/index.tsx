@@ -62,6 +62,9 @@ export default function Home() {
             <h2 className="uppercase text-3xl font-bold text-orange-600 tracking-wide mb-5 mt-12">News</h2>
             <ul className="list-disc list-inside space-y-5">
               <li>
+                <strong>24 Jul, 2023:</strong> &nbsp;Clarifying the timezones for all submission deadlines. We have become more lenient with the paper length limit for submissions, changing it from 12 pages including all references to 12 pages excluding any references.
+              </li>
+              <li>
                 <strong>24 Feb, 2023:</strong> &nbsp;ADC 2023 has launched a brand-new and exciting track: Encore Track. This track showcases relevant research and promotes interaction among researchers across disciplines. Recently accepted papers by top venues are invited to be presented in the format of posters or lightning talks at ADC 2023. We welcome the database and sibling communities to contribute their published research work to this track for promotion.
               </li>
               <li>
@@ -70,7 +73,8 @@ export default function Home() {
               </li>
             </ul>
             <h2 className="uppercase text-3xl font-bold text-orange-600 tracking-wide mb-5 mt-12">Important Dates</h2>
-            <h3 className="font-bold text-xl text-gray-600 mb-4 trackig-wide">Research Paper</h3>
+            <p>All submission deadlines are at 23:59 in <a className="underline" href="https://www.timeanddate.com/time/zones/aest" target="_blank" rel="noreferrer">Australian Eastern Standard Time (UTC+10)</a>.</p>
+            <h3 className="font-bold text-xl text-gray-600 mb-4 mt-6 trackig-wide">Research Paper</h3>
             <ul className="list-disc list-inside">
               <li>
                 <strong className="font-semibold md:w-52 md:inline-block">Full Paper Deadline:</strong> &nbsp;1 Aug, 2023</li>
@@ -84,7 +88,7 @@ export default function Home() {
             <h3 className="font-bold text-xl text-gray-600 mb-4 mt-6 trackig-wide">Shepherding Paper</h3>
             <ul className="list-disc list-inside">
               <li><strong className="font-semibold md:w-52 md:inline-block">Submission Deadline:</strong> &nbsp;1 Aug, 2023&nbsp;&nbsp;
-                <span className="py-0.5 px-2 rounded-full bg-gray-300 text-gray-600 font-sans font-medium text-xs">Updated</span>
+                {/* <span className="py-0.5 px-2 rounded-full bg-gray-300 text-gray-600 font-sans font-medium text-xs">Updated</span> */}
               </li>
               <li><strong className="font-semibold md:w-52 md:inline-block">Camera-Ready Deadline:</strong> &nbsp;15 Sep, 2023</li>
             </ul>
