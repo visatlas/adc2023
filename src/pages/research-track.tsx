@@ -44,12 +44,12 @@ export default function ResearchTrack() {
             Notes in Computer Science (LNCS) including references and figures.</li>
           <li>The format style files are available at <a className="underline text-sky-700" href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines" target="_blank" rel="noreferrer">LNCS Authors Instructions Page</a>.</li>
           <li>Authors should consult Springer&rsquo;s authors&rsquo; guidelines and use their proceedings templates, either for LaTeX or for Word, for the preparation of their papers. Springer encourages authors to include their ORCIDs in their papers. In addition, the corresponding author of each paper, acting on behalf of all of the authors of that paper, must complete and sign a Consent-to-Publish form. The corresponding author signing the copyright form should match the corresponding author marked on the paper. Once the files have been sent to Springer, changes relating to the authorship of the papers cannot be made.</li>
-          <li>Submitted files must be in PDF, where the following page limits apply: <span className="font-bold">12 pages for research full papers, or 4 pages for demonstration proposals. The references are counted within the page limit for both full papers and demo papers.</span></li>
+          <li>Submitted files must be in PDF, where the following page limits apply: <span className="font-bold">12 pages for research full papers, or 4 pages for demonstration proposals.</span></li>
           <li>Each paper will be judged on its originality, significance, technical quality, relevance to ADC, and presentation.</li>
           <li>ADC follows single blind review which means that authors&rsquo; information must be included in the submission.</li>
         </ul>
-        <h3 className="font-bold text-2xl text-orange-600 mt-10 mb-6">Important Dates</h3>
-        {/* <p>23:59 AoE time</p> */}
+        <h3 className="font-bold text-2xl text-orange-600 mt-10 mb-6">Important Dates</h3>        
+        {/* <p>All submission deadlines are at 23:59 in <a className="underline" href="https://www.timeanddate.com/time/zones/aest" target="_blank" rel="noreferrer">Australian Eastern Standard Time (UTC+10)</a>.</p> */}
         <ul className="list-disc list-inside mt-2">
           <li><strong className="font-semibold">Full Paper Deadline:</strong> &nbsp;1 Aug, 2023</li>
           <li><strong className="font-semibold">Author Notification:</strong> &nbsp;1 Sep, 2023</li>
