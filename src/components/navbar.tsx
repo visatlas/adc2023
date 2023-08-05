@@ -27,6 +27,7 @@ export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isSubmissionOpen, setIsSubmissionOpen] = useState(false);
   const [isProgramOpen, setIsProgramOpen] = useState(false);
+  const [isAttendOpen, setIsAttendOpen] = useState(false);
 
   return (
     <>
@@ -110,9 +111,30 @@ export const Navbar = () => {
             </Transition>
           </Menu>
 
-          <li className="text-sm font-bold uppercase tracking-wider text-gray-600 hidden md:block pointer-events-none">
-            <span className="px-2.5 py-2">Attend</span>
-          </li>
+          <Menu as="li" className="relative group">
+            <div>
+              <Menu.Button className="text-sm font-bold uppercase tracking-wider group-hover:text-orange-600 duration-100 flex items-center px-2.5 py-2 space-x-0.5">
+                <span className="sr-only">Attend</span>
+                <span className="">Attend</span>
+                <ChevronDownIcon className="w-4 h-4" aria-hidden="true" />
+              </Menu.Button>
+            </div>
+            <Transition as={Fragment}
+              enter="transition ease-out duration-100" enterFrom="transform opacity-0 scale-95" enterTo="transform opacity-100 scale-100"
+              leave="transition ease-in duration-75" leaveFrom="transform opacity-100 scale-100" leaveTo="transform opacity-0 scale-95">
+              <Menu.Items className="absolute left-0 z-10 mt-0 w-48 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none divide-y divide-gray-100">
+                <div className='px-1 py-1'>
+                  <Menu.Item>
+                    {({ active }) => (<Link href="/attend/student-travel-grants"
+                      className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 font-medium rounded-md')}>
+                      Student Travel Grants
+                    </Link>)}
+                  </Menu.Item>
+                </div>
+              </Menu.Items>
+            </Transition>
+          </Menu>
+
           <li className="text-sm font-bold uppercase tracking-wider hover:text-orange-600 duration-100">
             <Link className="px-2.5 py-2" href="/organisation">Organisation</Link>
           </li>
@@ -145,7 +167,8 @@ export const Navbar = () => {
                 </li>
 
                 <li className="group w-full">
-                  <button className={`py-2 pr-6 text-sm w-full duration-100 font-bold uppercase tracking-wider group-hover:text-orange-600 flex items-center gap-x-1 justify-end ${isSubmissionOpen ? 'text-orange-600' : 'text-gray-100'}`} onClick={() => setIsSubmissionOpen(!isSubmissionOpen)}>
+                  <button className={`py-2 pr-6 text-sm w-full duration-100 font-bold uppercase tracking-wider group-hover:text-orange-600 flex items-center gap-x-1 justify-end ${isSubmissionOpen ? 'text-orange-600' : 'text-gray-100'}`}
+                    onClick={() => setIsSubmissionOpen(!isSubmissionOpen)}>
                     {isSubmissionOpen ? <CaretDown aria-hidden="true" /> : <CaretLeft aria-hidden="true" />}
                     <span className="pl-1">Submission</span>
                   </button>
@@ -173,7 +196,8 @@ export const Navbar = () => {
                 )}
 
                 <li className="group w-full">
-                  <button className={`py-2 pr-6 text-sm w-full duration-100 font-bold uppercase tracking-wider group-hover:text-orange-600 flex items-center gap-x-1 justify-end ${isProgramOpen ? 'text-orange-600' : 'text-gray-100'}`} onClick={() => setIsProgramOpen(!isProgramOpen)}>
+                  <button className={`py-2 pr-6 text-sm w-full duration-100 font-bold uppercase tracking-wider group-hover:text-orange-600 flex items-center gap-x-1 justify-end ${isProgramOpen ? 'text-orange-600' : 'text-gray-100'}`}
+                    onClick={() => setIsProgramOpen(!isProgramOpen)}>
                     {isProgramOpen ? <CaretDown aria-hidden="true" /> : <CaretLeft aria-hidden="true" />}
                     <span className="pl-1">Program</span>
                   </button>
@@ -188,9 +212,23 @@ export const Navbar = () => {
                   </>
                 )}
 
-                <li className="text-sm w-full font-bold uppercase tracking-wider text-gray-600 pointer-events-none">
-                  <span className="py-2 block pr-6 w-full text-end">Attend</span>
+                <li className="group w-full">
+                  <button className={`py-2 pr-6 text-sm w-full duration-100 font-bold uppercase tracking-wider group-hover:text-orange-600 flex items-center gap-x-1 justify-end ${isAttendOpen ? 'text-orange-600' : 'text-gray-100'}`}
+                    onClick={() => setIsAttendOpen(!isAttendOpen)}>
+                    {isAttendOpen ? <CaretDown aria-hidden="true" /> : <CaretLeft aria-hidden="true" />}
+                    <span className="pl-1">Attend</span>
+                  </button>
                 </li>
+
+                {isAttendOpen && (
+                  <>
+                    <div className="h-[1px] w-full bg-orange-600"></div>
+                    <li className="text-sm w-full font-bold tracking-wide hover:text-orange-600 text-gray-100 duration-100 bg-gray-800">
+                      <Link className="py-2 block pr-6 w-full text-end" href="/attend/student-travel-grants">Student Travel Grants</Link>
+                    </li>
+                  </>
+                )}
+
                 <li className="text-sm w-full font-bold uppercase tracking-wider hover:text-orange-600 text-gray-100 duration-100">
                   <Link className="py-2 block pr-6 w-full text-end" href="/organisation">Organisation</Link>
                 </li>

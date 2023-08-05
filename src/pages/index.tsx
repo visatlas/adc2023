@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 import { Navbar } from '@/components/navbar';
 import SEO from '@/components/seo';
@@ -62,16 +63,19 @@ export default function Home() {
             <h2 className="uppercase text-3xl font-bold text-orange-600 tracking-wide mb-5 mt-12">News</h2>
             <ul className="list-disc list-inside space-y-5">
               <li>
-                <strong>24 Jul, 2023:</strong> &nbsp;Research and Demo Paper deadlines have been extended to 11 August, 2023.
+                <strong>5 Aug, 2023:</strong> &nbsp;<span className="font-semibold">ADC-23 & CIRES PhD School Travel Grants</span> are available for Australian based students who live outside Melbourne, to subsidise travel and up to 5-nights accommodation to attend both the CIRES PhD School and the Australasian Database Conference. Deadline for applications is 7 September 2023. View more on the <Link className="underline" href="/attend/student-travel-grants">Student Travel Grants page</Link>.
+              </li>
+              <li>
+                <strong>24 Jul, 2023:</strong> &nbsp;Research and Demo Paper deadlines have been <span className="font-semibold">extended to 11 August, 2023</span>.
               </li>
               <li>
                 <strong>24 Jul, 2023:</strong> &nbsp;Clarifying the timezones for all submission deadlines. We have become more lenient with the paper length limit for submissions, changing it from 12 pages including all references to 12 pages excluding any references.
               </li>
               <li>
-                <strong>24 Feb, 2023:</strong> &nbsp;ADC 2023 has launched a brand-new and exciting track: Encore Track. This track showcases relevant research and promotes interaction among researchers across disciplines. Recently accepted papers by top venues are invited to be presented in the format of posters or lightning talks at ADC 2023. We welcome the database and sibling communities to contribute their published research work to this track for promotion.
+                <strong>24 Feb, 2023:</strong> &nbsp;ADC 2023 has launched a brand-new and exciting track: <span className="font-semibold">Encore Track</span>. This track showcases relevant research and promotes interaction among researchers across disciplines. Recently accepted papers by top venues are invited to be presented in the format of posters or lightning talks at ADC 2023. We welcome the database and sibling communities to contribute their published research work to this track for promotion.
               </li>
               <li>
-                <span><strong>24 Feb, 2023:</strong> &nbsp;ADC 2023 has launched a brand-new and exciting track: Shepherding Track. This trackaimsat providing pre/early-PhDs and honours/master students with publication opportunities for their research outcomes. This track will enlist early-career researchers as mentors to shepherd students to improve their submissions in a multi-round style. We welcome the database and sibling communities to submit their research work to this track.</span>
+                <span><strong>24 Feb, 2023:</strong> &nbsp;ADC 2023 has launched a brand-new and exciting track: <span className="font-semibold">Shepherding Track</span>. This track aims at providing pre/early-PhDs and honours/master students with publication opportunities for their research outcomes. This track will enlist early-career researchers as mentors to shepherd students to improve their submissions in a multi-round style. We welcome the database and sibling communities to submit their research work to this track.</span>
                 <p className="mt-4">We call for self-nominated shepherd mentor participation. If you are willing to be joining the shepherding committee as an ECR, please contact r.qiu@uq.edu.au</p>
               </li>
             </ul>
