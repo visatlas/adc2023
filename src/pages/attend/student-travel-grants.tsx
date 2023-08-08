@@ -6,7 +6,7 @@ import Image from 'next/image';
 export default function StudentTravelGrants() {
   return (
     <Layout>
-      <SEO title="Tutorials" />
+      <SEO title="Student Travel Grants" />
       <div className="px-5 md:px-8 lg:px-10">
         <h2 className="mt-10 md:mt-14 uppercase text-3xl font-bold text-orange-600 tracking-wide mb-8">Student Travel Grants</h2>
         <article className="pb-10">

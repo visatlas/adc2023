@@ -125,6 +125,12 @@ export const Navbar = () => {
               <Menu.Items className="absolute left-0 z-10 mt-0 w-48 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none divide-y divide-gray-100">
                 <div className='px-1 py-1'>
                   <Menu.Item>
+                    {({ active }) => (<Link href="/attend/registration"
+                      className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 font-medium rounded-md')}>
+                      Registration
+                    </Link>)}
+                  </Menu.Item>
+                  <Menu.Item>
                     {({ active }) => (<Link href="/attend/student-travel-grants"
                       className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 font-medium rounded-md')}>
                       Student Travel Grants
@@ -223,6 +229,9 @@ export const Navbar = () => {
                 {isAttendOpen && (
                   <>
                     <div className="h-[1px] w-full bg-orange-600"></div>
+                    <li className="text-sm w-full font-bold tracking-wide hover:text-orange-600 text-gray-100 duration-100 bg-gray-800">
+                      <Link className="py-2 block pr-6 w-full text-end" href="/attend/registration">Registration</Link>
+                    </li>
                     <li className="text-sm w-full font-bold tracking-wide hover:text-orange-600 text-gray-100 duration-100 bg-gray-800">
                       <Link className="py-2 block pr-6 w-full text-end" href="/attend/student-travel-grants">Student Travel Grants</Link>
                     </li>
