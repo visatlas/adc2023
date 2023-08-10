@@ -63,6 +63,9 @@ export default function Home() {
             <h2 className="uppercase text-3xl font-bold text-orange-600 tracking-wide mb-5 mt-12">News</h2>
             <ul className="list-disc list-inside space-y-5">
               <li>
+                <strong>10 Aug, 2023:</strong> &nbsp;Research and Demo Paper deadlines have been further <span className="font-semibold">extended to 14 August, 2023</span>.
+              </li>
+              <li>
                 <strong>5 Aug, 2023:</strong> &nbsp;<span className="font-semibold">ADC-23 & CIRES PhD School Travel Grants</span> are available for Australian based students who live outside Melbourne, to subsidise travel and up to 5-nights accommodation to attend both the CIRES PhD School and the Australasian Database Conference. Deadline for applications is 7 September 2023. View more on the <Link className="underline" href="/attend/student-travel-grants">Student Travel Grants page</Link>.
               </li>
               <li>
@@ -84,7 +87,7 @@ export default function Home() {
             <h3 className="font-bold text-xl text-gray-600 mb-4 mt-6 trackig-wide">Research Paper</h3>
             <ul className="list-disc list-inside">
               <li>
-                <strong className="font-semibold md:w-52 md:inline-block">Full Paper Deadline:</strong> &nbsp;11 Aug, 2023&nbsp;&nbsp;<span className="line-through text-gray-400">1 Aug, 2023</span></li>
+                <strong className="font-semibold md:w-52 md:inline-block">Full Paper Deadline:</strong> &nbsp;14 Aug, 2023&nbsp;&nbsp;<span className="line-through text-gray-400">11 Aug, 2023</span>&nbsp;&nbsp;<span className="line-through text-gray-400">1 Aug, 2023</span></li>
                 
               <li><strong className="font-semibold md:w-52 md:inline-block">Author Notification:</strong> &nbsp;5 Sep, 2023&nbsp;&nbsp;<span className="line-through text-gray-400">1 Sep, 2023</span></li>
               <li><strong className="font-semibold md:w-52 md:inline-block">Camera-Ready Deadline:</strong> &nbsp;15 Sep, 2023</li>
