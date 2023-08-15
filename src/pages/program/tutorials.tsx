@@ -12,7 +12,7 @@ export default function Tutorials() {
         {/* <small className="mt-10 mb-2 block font-medium text-gray-500 tracking-wide">Program:</small>     */}
         <h2 className="mt-10 md:mt-14 uppercase text-3xl font-bold text-orange-600 tracking-wide mb-8">Tutorials</h2>
 
-        <article className="pb-10">
+        <article className="pb-16">
           <h3 className="font-bold text-2xl text-gray-800 mb-6">Detect Label Errors in Datasets</h3>
           <h3 className="font-bold text-xl text-gray-600 mb-4">&#9654;&nbsp;&nbsp;Abstract</h3>
           <p className="px-0 md:px-7">With the rise of large AI models, data assets have gained increasing importance. Understanding how to identify and correct label errors in our datasets is crucial. This is primarily because label errors are pervasive in the era of big data, and rectifying them can significantly enhance our knowledge. Moreover, large AI models are susceptible to overfitting label errors, which hinders their ability to generalize effectively unless label noise is adequately addressed. In this tutorial, we will present typical approaches to handle label noise, such as extracting confident/non-confident examples (indicating likely correct/incorrect labels) using deep network properties and intuitions. Additionally, we will explore methods that focus on directly modelling the label noise, providing theoretical guarantees. By illustrating the intuitions behind state-of-the-art techniques, this tutorial aims to equip researchers and practitioners with valuable insights into effectively managing label noise in datasets.</p>
