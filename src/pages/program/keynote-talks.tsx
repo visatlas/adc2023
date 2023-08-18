@@ -34,7 +34,7 @@ export default function KeynoteTalks() {
 
           <h3 className="font-bold text-2xl text-gray-800 mb-6">Empowering Database Systems with Machine Learning</h3>
           <h3 className="font-bold text-xl text-gray-600 mb-4">&#9654;&nbsp;&nbsp;Abstract</h3>
-          <p className="px-0 md:px-7">Coming Soon.</p>
+          <p className="px-0 md:px-7">The database community has actively explored how machine learning (ML) can be leveraged to address challenges in database systems (ML4DB) for the past several years. The talk will briefly cover several selected ML4DB tasks, and then focus on our perceptions on two topics. First, query plan is used as input in several ML4DB tasks, and most studies usually focus on one task and develop a new design to represent query plans along with a ML4DB framework. This talk will present a different approach to these tasks by abstracting the query plan representation as a common component for multiple ML4DB tasks. Second, learned indexes are proposed to learn a ML model to replace the classic indexes. This talk will present a different way of using ML for indexes, namely enhancing the classic indexes with ML, rather than replacing them.</p>
           <h3 className="mt-7 font-bold text-xl text-gray-600 mb-5">&#9654;&nbsp;&nbsp;Speaker</h3>
           <div className="flex w-[20em] sm:w-[25em] px-0 md:px-7">
             <a className="border rounded-lg overflow-hidden mr-3 min-w-[60px] min-h-[60px] w-[60px] h-[60px] bg-gray-200" href="https://personal.ntu.edu.sg/gaocong/" target="_blank" rel="noreferrer">
