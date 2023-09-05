@@ -88,13 +88,14 @@ export default function Home() {
             <ul className="list-disc list-inside">
               <li>
                 <strong className="font-semibold md:w-52 md:inline-block">Full Paper Deadline:</strong> &nbsp;14 Aug, 2023&nbsp;&nbsp;<span className="line-through text-gray-400">11 Aug, 2023</span>&nbsp;&nbsp;<span className="line-through text-gray-400">1 Aug, 2023</span></li>
-                
               <li><strong className="font-semibold md:w-52 md:inline-block">Author Notification:</strong> &nbsp;5 Sep, 2023&nbsp;&nbsp;<span className="line-through text-gray-400">1 Sep, 2023</span></li>
               <li><strong className="font-semibold md:w-52 md:inline-block">Camera-Ready Deadline:</strong> &nbsp;15 Sep, 2023</li>
+              <li><strong className="font-semibold md:w-52 md:inline-block">Registration Deadline:</strong> &nbsp;30 Sep, 2023</li>
             </ul>
             <h3 className="font-bold text-xl text-gray-600 mb-4 mt-6 trackig-wide">Encore Paper</h3>
             <ul className="list-disc list-inside">
               <li><strong className="font-semibold md:w-52 md:inline-block">Submission Deadline:</strong> &nbsp;1 Sep, 2023</li>
+              <li><strong className="font-semibold md:w-52 md:inline-block">Registration Deadline:</strong> &nbsp;30 Sep, 2023</li>
             </ul>
             <h3 className="font-bold text-xl text-gray-600 mb-4 mt-6 trackig-wide">Shepherding Paper</h3>
             <ul className="list-disc list-inside">
@@ -102,6 +103,7 @@ export default function Home() {
                 {/* <span className="py-0.5 px-2 rounded-full bg-gray-300 text-gray-600 font-sans font-medium text-xs">Updated</span> */}
               </li>
               <li><strong className="font-semibold md:w-52 md:inline-block">Camera-Ready Deadline:</strong> &nbsp;15 Sep, 2023</li>
+              <li><strong className="font-semibold md:w-52 md:inline-block">Registration Deadline:</strong> &nbsp;30 Sep, 2023</li>
             </ul>
             <h3 className="font-bold text-xl text-gray-600 mb-4 mt-6 trackig-wide">Conference Dates</h3>
             <ul className="list-disc list-inside">
