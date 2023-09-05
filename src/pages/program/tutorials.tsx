@@ -71,6 +71,29 @@ export default function Tutorials() {
           <p className="mt-4 px-0 md:px-7">Dr Xin Yu is a Senior Lecturer at the University of Queensland (UQ) and is an ARC DECRA fellow. Previously, he was a research fellow at the Australian National University (ANU). He received PhD degrees from Tsinghua University and the Australian National University, respectively. His research interests cover a wide range of topics in Computer Vision and Machine Learning. He has published more than 70 papers on top-tier conference papers and journals, such as CVPR, ECCV, NeurIPS, ICLR, TPAMI, and IJCV. He also received Best Paper Honorable Mention Award in WACV 2020, and his paper was nominated for the Best Paper Award in CVPR 2020. He is a recipient of Google Research Scholar Award in 2021. He also won several Challenge championships in the workshops of CVPR, ACCV, etc.</p>
           <p className="mt-4 px-0 md:px-7">Dr Liang Zheng is a Senior Lecturer and was an ARC DECRA Fellow in the Australian National University. He is best known for his contributions in object re-identification, where he and his collaborators designed widely used datasets and algorithms such as Market-1501 (ICCV 2015), part-based convolutional baseline (ECCV 2018), random erasing (AAAI 2020) and joint detection and embedding (ECCV 2020). His recent research interest is data-centric computer vision, aiming at analysing and improving data rather than models themselves. He is a leading organizer of the Vision Datasets Understanding workshop series and the DataCV challenge at CVPR and serves as an Area Chair for leading conferences such as CVPR, ICCV, ECCV and NeurIPS. He received the Outstanding Young Author (Paper) Award from IEEE Transactions on Circuits and Systems for Video Technology and was named one of AI&rsquo;s 10 to Watch by IEEE Intelligent Systems and Australia&rsquo;s Early Achievers by The Australian. He received his B.S degree (2010) and Ph.D degree (2015) both from Tsinghua University, China.</p>
           <p className="mt-4 px-0 md:px-7">Zijian Wang is a Postdoctoral Research Fellow at the University of Queensland (UQ). His PhD thesis is mainly on domain adaptation and generalization in computer vision. He has published papers on top-tier conference papers and journals, such as ICCV, ICML, ICLR, MM, and TPAMI. Zijian has also been widely engaged in a number of cross-disciplinary research projects, spanning civil engineering and chemical engineering.</p>
+        
+        
+          <div className="border-t-2 border-dotted mt-16 mb-8 bg-gray-400 mx-[-1em]"></div>
+          <p className="text-orange-600 uppercase tracking-[0.2em] mb-2 font-semibold">TUTORIAL</p>
+
+          <h3 className="font-bold text-2xl text-gray-800 mb-6">Towards Trustworthy Data Markets: Recent Advances and Open Problems</h3>
+          <h3 className="font-bold text-xl text-gray-600 mb-4">&#9654;&nbsp;&nbsp;Abstract</h3>
+          <p className="px-0 md:px-7">Data is the new oil. The value of data is rapidly increasing, with companies like Google and Facebook surpassing traditional oil companies in market capitalization and ranking on the Fortune 500 list. As the data science community explores ways to determine, transfer, and allocate the value of data, new technical challenges arise when considering the economic constraints in the data science pipeline, including data collection, cleaning, sharing, and analysis. One of the biggest hurdles in data markets is exchanging sensitive data related to individuals, such as social networks, spatiotemporal trajectories, and healthcare information. In this tutorial, I will discuss recent studies on creating a trustworthy data market that enables private, secure, and fair data trading. We will also examine areas for further research and opportunities to improve the current state of the data market.</p>
+          <h3 className="mt-7 font-bold text-xl text-gray-600 mb-5">&#9654;&nbsp;&nbsp;Speaker</h3>
+
+          <div className="px-0 md:px-7 flex gap-x-10 gap-y-5 flex-wrap">
+            <div className="flex w-[20em] sm:w-[25em]">
+              <a className="border rounded-lg overflow-hidden mr-3 min-w-[60px] min-h-[60px] w-[60px] h-[60px] bg-gray-200 flex justify-center" href="https://yangcao88.github.io/" target="_blank" rel="noreferrer">
+                <Image src={`/images/committee/yang-cao.jpg`} width={44.63} height={60} alt={``}/>
+              </a>
+              <div className="flex flex-col justify-center">
+                <span className="text-gray-800 font-bold text-lg">Yang Cao</span>
+                <span className="text-gray-600 text-sm">Hokkaido University</span>
+              </div>
+            </div>
+          </div>
+          <p className="mt-4 px-0 md:px-7">Yang Cao is an Associate Professor at Hokkaido University. He earned his Ph.D. in Informatics from Kyoto University in 2017. His research areas include security and privacy, data markets, data management, and trustworthy machine learning. His work has been published in esteemed conferences and journals such as VLDB, SIGMOD, ICDE, KDD, AAAI, and USENIX Security. Three of his papers were finalists for best papers in ICDE 2017, ICME 2020, and BigData 2022. He has received several awards, including the IEEE Computer Society Japan Chapter Young Author Award in 2019 and the Database Society of Japan Kambayashi Young Researcher Award in 2021. His research projects have been supported by various organizations, including JSPS, JST, MSRA, KDDI, LINE, and WeBank.</p>
+
         </article>
       </div>
     </Layout>
