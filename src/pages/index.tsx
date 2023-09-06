@@ -99,10 +99,11 @@ export default function Home() {
             </ul>
             <h3 className="font-bold text-xl text-gray-600 mb-4 mt-6 trackig-wide">Shepherding Paper</h3>
             <ul className="list-disc list-inside">
-              <li><strong className="font-semibold md:w-52 md:inline-block">Submission Deadline:</strong> &nbsp;1 Aug, 2023&nbsp;&nbsp;
-                {/* <span className="py-0.5 px-2 rounded-full bg-gray-300 text-gray-600 font-sans font-medium text-xs">Updated</span> */}
+              <li><strong className="font-semibold md:w-52 md:inline-block">Submission Deadline:</strong> &nbsp;1 Aug, 2023
+                {/* &nbsp;&nbsp;<span className="py-0.5 px-2 rounded-full bg-gray-300 text-gray-600 font-sans font-medium text-xs">Updated</span> */}
               </li>
-              <li><strong className="font-semibold md:w-52 md:inline-block">Camera-Ready Deadline:</strong> &nbsp;15 Sep, 2023</li>
+              <li><strong className="font-semibold md:w-52 md:inline-block">Camera-Ready Deadline:</strong> &nbsp;15 Sep, 2023 (already accepted)<br className="hidden md:block"/>
+                <strong className="font-semibold md:w-56 md:inline-block"></strong> &nbsp;22 Sep, 2023 (revision)</li>
               <li><strong className="font-semibold md:w-52 md:inline-block">Registration Deadline:</strong> &nbsp;30 Sep, 2023</li>
             </ul>
             <h3 className="font-bold text-xl text-gray-600 mb-4 mt-6 trackig-wide">Conference Dates</h3>
