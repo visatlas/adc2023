@@ -17,7 +17,7 @@ export default function StudentTravelGrants() {
           <p className="mb-4">To be eligible, you must be a student author presenting at ADC, and proof of ADC registration will be required.</p>
           <h3 className="font-bold text-xl text-gray-600 mb-4 mt-8">&#9654;&nbsp;&nbsp;Application Procedure</h3>
           <p className="mb-4">You may indicate your interest to be considered for a Travel Grant via the <a href="https://forms.gle/3sRUK7L6ZHy61Xg19" className="underline font-semibold text-sky-700" target="_blank" rel="noreferrer">online application form</a>.</p>
-          <p>Deadline for applications is <span className='font-semibold'>7 September 2023</span>.</p>
+          <p>Deadline for applications is <span className='font-semibold'>12 September 2023</span>.&nbsp;&nbsp;<span className="line-through text-gray-400">7 September 2023</span></p>
         </article>
       </div>
 

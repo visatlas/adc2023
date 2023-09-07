@@ -63,6 +63,9 @@ export default function Home() {
             <h2 className="uppercase text-3xl font-bold text-orange-600 tracking-wide mb-5 mt-12">News</h2>
             <ul className="list-disc list-inside space-y-5">
               <li>
+                <strong>7 Sep, 2023:</strong> &nbsp;Deadline for ADC-23 & CIRES PhD School Travel Grants applications has been <span className="font-semibold">updated to 12 September, 2023</span>.
+              </li>
+              <li>
                 <strong>10 Aug, 2023:</strong> &nbsp;Research and Demo Paper deadlines have been further <span className="font-semibold">extended to 14 August, 2023</span>.
               </li>
               <li>
