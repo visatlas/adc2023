@@ -38,7 +38,7 @@ export default function AcceptedPapers() {
               <h3 className="font-bold tracking-wide">Encore Papers</h3>
             </div>
           </div>
-          {encorePapers.map(paper => (
+          {encorePapers.map((paper: any) => (
             <div key={paper.title} className="mb-4 flex flex-start space-x-4">
               <p className="font-semibold text-gray-800 w-5 text-right pt-6 shrink-0">{paper.id}</p>
               <div className="">
