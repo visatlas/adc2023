@@ -85,7 +85,7 @@ const committee: Committee = [
     ]
   },
   {
-    "type": "Tutorial & Workshop Chair", "items": [
+    "type": "PhD Workshop & Tutorial Chair", "items": [
       { "name": "Hui Luo", "affiliation": "University of Wollongong", "image": "hui-luo.png", "url": "https://scholars.uow.edu.au/hui-luo" },
     ]
   },

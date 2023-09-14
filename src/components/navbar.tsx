@@ -142,6 +142,12 @@ export const Navbar = () => {
                       Student Travel Grants
                     </Link>)}
                   </Menu.Item>
+                  <Menu.Item>
+                    {({ active }) => (<Link href="/attend/invitation-letter"
+                      className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 font-medium rounded-md')}>
+                      Invitation Letter
+                    </Link>)}
+                  </Menu.Item>
                 </div>
               </Menu.Items>
             </Transition>

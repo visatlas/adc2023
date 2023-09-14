@@ -115,6 +115,35 @@ export default function Tutorials() {
           <p className="mt-4 px-0 md:px-7">Bang Wu currently holds CSIRO Early Research Career (CERC) Postdoctoral Fellowship at CSIRO&rsquo;s DATA61, Australia. His PhD thesis is mainly on securing graph neural networks in machine learning as a service. He has authored research papers featured in top-tier conferences and journals spanning multiple domains, including ICDM, ICML, AsiaCCS, TIFS, and TDSC. His research interests include trustworthy graph-based machine learning, trustworthy machine learning on multimodal systems, and various facets of security and privacy in machine learning across different domains.</p>
           <p className="mt-4 px-0 md:px-7">He Zhang is a final year Ph.D. candidate at the Faculty of Information Technology, Monash University, Australia. He has a profound interest in GNNs and the development of trustworthy AI systems. His research in trustworthy GNNs has led to several academic publications in top conferences like ICML and CIKM, as well as top journals like IEEE TKDE. Currently, He Zhang is exploring the navigation in multiple objectives (e.g., privacy, fairness, and utility) with the aim of comprehensively building trustworthy GNNs.</p>
 
+          <div className="border-t-2 border-dotted mt-16 mb-8 bg-gray-400 mx-[-1em]"></div>
+          <p className="text-orange-600 uppercase tracking-[0.2em] mb-2 font-semibold">TUTORIAL</p>
+          <h3 className="font-bold text-2xl text-gray-800 mb-6">Towards Data-centric Graph Machine Learning</h3>
+          <h3 className="font-bold text-xl text-gray-600 mb-4">&#9654;&nbsp;&nbsp;Abstract</h3>
+          <p className="px-0 md:px-7">Graph-structured data, constituted by discrete nodes connected by independent edges within a non-Euclidean space, serves as the foundational data type for depicting and capturing complex interdependencies among massive diverse entities in the real world. In the context of Data-centric AI, this tutorial will provide an introduction of the recent advances in Data-centric Graph Machine Learning (DC-GML). Concretely, this tutorial will cover the systematic framework of DC-GML that encompasses all stages of the graph data lifecycle, including graph data collection, exploration, improvement, exploitation, and maintenance. Three critical graph-centric questions will be answered covering: (1) how to enhance graph data availability and quality; (2) how to learn from graph data with limited-availability and low-quality; (3) how to build graph MLOps systems from the graph data-centric view. Lastly, this tutorial will offer a forward-looking outlook to navigate future advancements and applications of the DC-GML domain.</p>
+          <h3 className="mt-7 font-bold text-xl text-gray-600 mb-5">&#9654;&nbsp;&nbsp;Speakers</h3>
+          <div className="px-0 md:px-7 flex gap-x-10 gap-y-5 flex-wrap">
+            <div className="flex w-[20em] sm:w-[25em]">
+              <a className="border rounded-lg overflow-hidden mr-3 min-w-[60px] min-h-[60px] w-[60px] h-[60px] bg-gray-200" href="https://shiruipan.github.io/" target="_blank" rel="noreferrer">
+                <Image src={`/images/committee/shirui-pan.jpg`} width={60} height={60} alt={``} />
+              </a>
+              <div className="flex flex-col justify-center">
+                <span className="text-gray-800 font-bold text-lg">Shirui Pan</span>
+                <span className="text-gray-600 text-sm">Griffith University</span>
+              </div>
+            </div>
+            <div className="flex w-[20em] sm:w-[25em]">
+              <a className="border rounded-lg overflow-hidden mr-3 min-w-[60px] min-h-[60px] w-[60px] h-[60px] bg-gray-200" href="https://shiruipan.github.io/authors/xin-zheng/" target="_blank" rel="noreferrer">
+                <Image src={`/images/committee/xin-zheng.jpg`} width={60} height={60} alt={``} />
+              </a>
+              <div className="flex flex-col justify-center">
+                <span className="text-gray-800 font-bold text-lg">Xin Zheng</span>
+                <span className="text-gray-600 text-sm">Monash University</span>
+              </div>
+            </div>
+          </div>
+          <p className="mt-4 px-0 md:px-7">Shirui Pan is a Professor and an ARC Future Fellow with the School of Information and Communication Technology, Griffith University, Australia. He received his Ph.D degree in computer science from University of Technology Sydney (UTS), Australia. He is a Senior Member of IEEE and ACM, and a Fellow of Queensland Academy of Arts and Sciences (FQA). Shirui&rsquo;s research focuses on artificial intelligence, with a focus on graph machine learning. His research has been published in top conferences and journals including NeurIPS, ICML, KDD, TPAMI, TNNLS, and TKDE. His research received the 2024 IEEE CIS TNNLS Outstanding Paper Award and the IEEE ICDM Best Student Paper Award.</p>
+          <p className="mt-4 px-0 md:px-7">Xin Zheng is a final year Ph.D. student at Monash University, Australia. She received her B.S degree (2017) and Master degree (2020) both from Dalian University of Technology, China. Her research interests mainly on the study of automated graph machine learning operations (MLOps) workflow, specifically within the automated GNN design and graph data-centric learning. She has published papers on top-tier journals and conference papers, such as IJCV, PR, ICDM, WWW, MM.</p>
+
         </article>
       </div>
     </Layout>
