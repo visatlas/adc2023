@@ -63,6 +63,9 @@ export default function Home() {
             <h2 className="uppercase text-3xl font-bold text-orange-600 tracking-wide mb-5 mt-12">News</h2>
             <ul className="list-disc list-inside space-y-5">
               <li>
+                <strong>18 Sep, 2023:</strong> &nbsp;List of the accepted papers is now available on the <Link href="/accepted-papers" className="underline">Accepted Papers page</Link>.
+              </li>
+              <li>
                 <strong>14 Sep, 2023:</strong> &nbsp;For attendees outside Australia, after complete your registration, you can contact Dr. Hui Luo (<a className="underline" href="mailto:huil@uow.edu.au" target="_blank" rel="noreferrer">huil@uow.edu.au</a>) to request for an invitation letter (please provide your registration evidence) for your visa application.
               </li>
               <li>

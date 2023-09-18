@@ -113,6 +113,14 @@ export const Navbar = () => {
                     </Link>)}
                   </Menu.Item>
                 </div>
+                <div className='px-1 py-1'>
+                  <Menu.Item>
+                    {({ active }) => (<Link href="/accepted-papers"
+                      className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 font-medium rounded-md')}>
+                      Accepted Papers
+                    </Link>)}
+                  </Menu.Item>
+                </div>
               </Menu.Items>
             </Transition>
           </Menu>
@@ -230,6 +238,9 @@ export const Navbar = () => {
                     <li className="text-sm w-full font-bold tracking-wide hover:text-orange-600 text-gray-100 duration-100 bg-gray-800">
                       <Link className="py-2 block pr-6 w-full text-end" href="/program/tutorials">Tutorials</Link>
                     </li>
+                    <li className="text-sm w-full font-bold tracking-wide hover:text-orange-600 text-gray-100 duration-100 bg-gray-800">
+                      <Link className="py-2 block pr-6 w-full text-end" href="/accepted-papers">Accepted Papers</Link>
+                    </li>
                   </>
                 )}
 
@@ -249,6 +260,9 @@ export const Navbar = () => {
                     </li>
                     <li className="text-sm w-full font-bold tracking-wide hover:text-orange-600 text-gray-100 duration-100 bg-gray-800">
                       <Link className="py-2 block pr-6 w-full text-end" href="/attend/student-travel-grants">Student Travel Grants</Link>
+                    </li>
+                    <li className="text-sm w-full font-bold tracking-wide hover:text-orange-600 text-gray-100 duration-100 bg-gray-800">
+                      <Link className="py-2 block pr-6 w-full text-end" href="/attend/invitation-letter">Invitation Letter</Link>
                     </li>
                   </>
                 )}
