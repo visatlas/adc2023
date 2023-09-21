@@ -28,18 +28,22 @@ export const Navbar = () => {
   const [isSubmissionOpen, setIsSubmissionOpen] = useState(false);
   const [isProgramOpen, setIsProgramOpen] = useState(false);
   const [isAttendOpen, setIsAttendOpen] = useState(false);
+  const [isOrganisationOpen, setIsOrganisationOpen] = useState(false);
 
   return (
     <>
       <nav className="h-[4em] hidden md:flex items-center justify-end w-full text-gray-900">
         <ul className="flex justify-center h-full items-center">
+
+          {/* Home */}
           <li className="text-sm font-bold uppercase tracking-wider hover:text-orange-600 duration-100">
-            <Link className="px-2.5 py-2" href="/">Home</Link>
+            <Link className="pl-1 pr-1 lg:pl-2.5 lg:pr-2.5 py-2" href="/">Home</Link>
           </li>
 
+          {/* Submission */}
           <Menu as="li" className="relative ml-3 group">
             <div>
-              <Menu.Button className="text-sm font-bold uppercase tracking-wider group-hover:text-orange-600 duration-100 flex items-center px-2.5 py-2 space-x-0.5">
+              <Menu.Button className="text-sm font-bold uppercase tracking-wider group-hover:text-orange-600 duration-100 flex items-center pl-1 pr-1 lg:pl-2.5 lg:pr-2.5 py-2 space-x-0.5">
                 <span className="sr-only">Submission</span>
                 <span className="">Submission</span>
                 <ChevronDownIcon className="w-4 h-4" aria-hidden="true" />
@@ -87,9 +91,10 @@ export const Navbar = () => {
             </Transition>
           </Menu>
 
+          {/* Program */}
           <Menu as="li" className="relative group">
             <div>
-              <Menu.Button className="text-sm font-bold uppercase tracking-wider group-hover:text-orange-600 duration-100 flex items-center px-2.5 py-2 space-x-0.5">
+              <Menu.Button className="text-sm font-bold uppercase tracking-wider group-hover:text-orange-600 duration-100 flex items-center pl-1 pr-1 lg:pl-2.5 lg:pr-2.5 py-2 space-x-0.5">
                 <span className="sr-only">Program</span>
                 <span className="">Program</span>
                 <ChevronDownIcon className="w-4 h-4" aria-hidden="true" />
@@ -125,9 +130,10 @@ export const Navbar = () => {
             </Transition>
           </Menu>
 
+          {/* Attend */}
           <Menu as="li" className="relative group">
             <div>
-              <Menu.Button className="text-sm font-bold uppercase tracking-wider group-hover:text-orange-600 duration-100 flex items-center px-2.5 py-2 space-x-0.5">
+              <Menu.Button className="text-sm font-bold uppercase tracking-wider group-hover:text-orange-600 duration-100 flex items-center pl-1 pr-1 lg:pl-2.5 lg:pr-2.5 py-2 space-x-0.5">
                 <span className="sr-only">Attend</span>
                 <span className="">Attend</span>
                 <ChevronDownIcon className="w-4 h-4" aria-hidden="true" />
@@ -161,12 +167,40 @@ export const Navbar = () => {
             </Transition>
           </Menu>
 
-          <li className="text-sm font-bold uppercase tracking-wider hover:text-orange-600 duration-100">
-            <Link className="px-2.5 py-2" href="/organisation">Organisation</Link>
-          </li>
+          {/* Organisation */}
+          <Menu as="li" className="relative group">
+            <div>
+              <Menu.Button className="text-sm font-bold uppercase tracking-wider group-hover:text-orange-600 duration-100 flex items-center pl-1 pr-1 lg:pl-2.5 lg:pr-2.5 py-2 space-x-0.5">
+                <span className="sr-only">Organisation</span>
+                <span className="">Organisation</span>
+                <ChevronDownIcon className="w-4 h-4" aria-hidden="true" />
+              </Menu.Button>
+            </div>
+            <Transition as={Fragment}
+              enter="transition ease-out duration-100" enterFrom="transform opacity-0 scale-95" enterTo="transform opacity-100 scale-100"
+              leave="transition ease-in duration-75" leaveFrom="transform opacity-100 scale-100" leaveTo="transform opacity-0 scale-95">
+              <Menu.Items className="absolute right-0 xl:left-0 z-10 mt-0 w-52 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none divide-y divide-gray-100">
+                <div className='px-1 py-1'>
+                  <Menu.Item>
+                    {({ active }) => (<Link href="/organisation"
+                      className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 font-medium rounded-md')}>
+                      ADC 2023 Organisation
+                    </Link>)}
+                  </Menu.Item>
+                  <Menu.Item>
+                    {({ active }) => (<Link href="/program-committee"
+                      className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 font-medium rounded-md')}>
+                      Program Committee
+                    </Link>)}
+                  </Menu.Item>
+                </div>
+              </Menu.Items>
+            </Transition>
+          </Menu>
         </ul>
       </nav>
 
+      {/* Mobile Menu */}
       <nav className="h-[4em] flex md:hidden">
         <Bars3Icon className="w-8 h-8 m-auto hover:text-orange-600 cursor-pointer" onClick={() => setIsOpen(true)} />
         {isOpen && (
@@ -267,9 +301,25 @@ export const Navbar = () => {
                   </>
                 )}
 
-                <li className="text-sm w-full font-bold uppercase tracking-wider hover:text-orange-600 text-gray-100 duration-100">
-                  <Link className="py-2 block pr-6 w-full text-end" href="/organisation">Organisation</Link>
+                <li className="group w-full">
+                  <button className={`py-2 pr-6 text-sm w-full duration-100 font-bold uppercase tracking-wider group-hover:text-orange-600 flex items-center gap-x-1 justify-end ${isOrganisationOpen ? 'text-orange-600' : 'text-gray-100'}`}
+                    onClick={() => setIsOrganisationOpen(!isOrganisationOpen)}>
+                    {isOrganisationOpen ? <CaretDown aria-hidden="true" /> : <CaretLeft aria-hidden="true" />}
+                    <span className="pl-1">Organisation</span>
+                  </button>
+
                 </li>
+                {isOrganisationOpen && (
+                  <>
+                    <div className="h-[1px] w-full bg-orange-600"></div>
+                    <li className="text-sm w-full font-bold tracking-wide hover:text-orange-600 text-gray-100 duration-100 bg-gray-800">
+                      <Link className="py-2 block pr-6 w-full text-end" href="/organisation">ADC 2023 Organisation</Link>
+                    </li>
+                    <li className="text-sm w-full font-bold tracking-wide hover:text-orange-600 text-gray-100 duration-100 bg-gray-800">
+                      <Link className="py-2 block pr-6 w-full text-end" href="/program-committee">Program Committee</Link>
+                    </li>
+                  </>
+                )}
               </ul>
             </div>
           </div>

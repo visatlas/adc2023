@@ -6,7 +6,7 @@ export default function Organisation() {
   return (<Layout>
     <SEO title="Organisation" />
     <div className="px-5 md:px-8 lg:px-10 w-full">
-      <h2 className="uppercase text-3xl font-bold text-orange-600 tracking-wide mb-5 pt-10">Organisation</h2>
+      <h2 className="uppercase text-3xl font-bold text-orange-600 tracking-wide mb-5 mt-10 md:mt-14">Organisation</h2>
       <article className="pb-5">
         {committee.map((item) => (
           <div className="mt-6 mb-12" key={item.type}>
