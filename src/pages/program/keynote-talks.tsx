@@ -28,7 +28,7 @@ export default function KeynoteTalks() {
             </div>
           </div>
           <p className="mt-4 px-0 md:px-7">Professor Geoff Webb is an eminent and highly-cited data scientist. He was editor in chief of the Data Mining and Knowledge Discovery journal, from 2005 to 2014. He has been Program Committee Chair of both ACM SIGKDD and IEEE ICDM, as well as General Chair of ICDM and member of the ACM SIGKDD Executive. He is a Technical Advisor to machine learning as a service startup BigML Inc and to recommender systems startup FROOMLE. He developed many of the key mechanisms of support-confidence association discovery in the 1980s. His OPUS search algorithm remains the state-of-the-art in rule search. He pioneered multiple research areas as diverse as black-box user modelling, interactive data analytics and statistically-sound pattern discovery. He has developed many useful machine learning algorithms that are widely deployed. His many awards include IEEE Fellow, the inaugural Eureka Prize for Excellence in Data Science (2017) and the Pacific-Asia Conference on Knowledge Discovery and Data Mining Distinguished Research Contributions Award (2022).</p>
-        
+
           <div className="border-t-2 border-dotted mt-16 mb-8 bg-gray-400 mx-[-1em]"></div>
           <p className="text-orange-600 uppercase tracking-[0.2em] mb-2 font-semibold">KEYNOTE TALK</p>
 
@@ -63,8 +63,8 @@ export default function KeynoteTalks() {
               <span className="text-gray-600 text-sm">University of Technology Sydney</span>
             </div>
           </div>
-          {/* <p className="mt-4 px-0 md:px-7">Coming Soon.</p> */}
-      
+          <p className="mt-4 px-0 md:px-7">Ling Chen is a Professor in the School of Computer Science at the University of Technology Sydney. She leads the Data Science and Knowledge Discovery Laboratory (The DSKD Lab) within the Australian Artificial Intelligence Institute (AAII) at UTS. Ling has been persistently working in the area of machine learning and data mining for 20 years, dedicated to undertaking innovative research to produce high quality results and attracting and leading research and industry projects to initiate and investigate new research areas and create real impacts.</p>
+          <p className="mt-2 px-0 md:px-7">Ling&rsquo;s recent research interests include anomaly detection, data representation learning, and dialogues and interactive systems. Her research has gained recognition from both government agencies, receiving competitive grants such as ARC DP/LP/LIEF, and industry partners, with contracted research support from entities like Facebook Research and TPG Telecom. Ling serves as an Editorial Board member for journals including the IEEE Journal of Social Computing, the Elsevier Journal of Data and Knowledge Engineering and the Computer Standards and Interfaces.</p>
         </article>
       </div>
     </Layout>

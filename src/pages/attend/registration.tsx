@@ -33,7 +33,7 @@ export default function Registration() {
 
           <h4 className="font-semibold text-xl mt-10">PhD Workshop Registration</h4>
           <ul className="list-disc ml-6 mt-2">
-            <li>PhD workshop registration is for students only.</li>
+            {/* <li>PhD workshop registration is for students only.</li> */}
             <li>Covers accesses to the tutorials and encore track sessions.</li>
             <li className="mt-2"><span className="font-medium">Registration Link: </span><br /><a className="underline text-sky-700" href="https://ecommerce.unimelb.edu.au/australasian-database-conference-adc-2023-phd-workshop-registration" target="_blank" rel="noreferrer">https://ecommerce.unimelb.edu.au/australasian-database-conference-adc-2023-phd-workshop-registration</a></li>
           </ul>
