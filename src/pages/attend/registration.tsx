@@ -38,7 +38,7 @@ export default function Registration() {
             <li className="mt-2"><span className="font-medium">Registration Link: </span><br /><a className="underline text-sky-700" href="https://ecommerce.unimelb.edu.au/australasian-database-conference-adc-2023-phd-workshop-registration" target="_blank" rel="noreferrer">https://ecommerce.unimelb.edu.au/australasian-database-conference-adc-2023-phd-workshop-registration</a></li>
           </ul>
 
-          <p className="mt-10">Deadline for all types of registration is <span className='font-semibold'>30 September 2023</span>.</p>
+          <p className="mt-10">Deadline for all types of registration is <span className='font-semibold'>7 October 2023.</span>&nbsp;&nbsp;<span className="line-through text-gray-400">30 Sep, 2023</span></p>
         </article>
       </div>
     </Layout>

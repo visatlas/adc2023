@@ -63,6 +63,9 @@ export default function Home() {
             <h2 className="uppercase text-3xl font-bold text-orange-600 tracking-wide mb-5 mt-12">News</h2>
             <ul className="list-disc list-inside space-y-5">
               <li>
+                <strong>28 Sep, 2023:</strong> &nbsp;Deadline for all registrations has been <span className="font-semibold">extended to 7 October, 2023</span>.
+              </li>
+              <li>
                 <strong>18 Sep, 2023:</strong> &nbsp;List of the accepted papers is now available on the <Link href="/accepted-papers" className="underline">Accepted Papers page</Link>.
               </li>
               <li>
@@ -99,12 +102,12 @@ export default function Home() {
                 <strong className="font-semibold md:w-52 md:inline-block">Full Paper Deadline:</strong> &nbsp;14 Aug, 2023&nbsp;&nbsp;<span className="line-through text-gray-400">11 Aug, 2023</span>&nbsp;&nbsp;<span className="line-through text-gray-400">1 Aug, 2023</span></li>
               <li><strong className="font-semibold md:w-52 md:inline-block">Author Notification:</strong> &nbsp;5 Sep, 2023&nbsp;&nbsp;<span className="line-through text-gray-400">1 Sep, 2023</span></li>
               <li><strong className="font-semibold md:w-52 md:inline-block">Camera-Ready Deadline:</strong> &nbsp;15 Sep, 2023</li>
-              <li><strong className="font-semibold md:w-52 md:inline-block">Registration Deadline:</strong> &nbsp;30 Sep, 2023</li>
+              <li><strong className="font-semibold md:w-52 md:inline-block">Registration Deadline:</strong> &nbsp;7 Oct, 2023&nbsp;&nbsp;<span className="line-through text-gray-400">30 Sep, 2023</span></li>
             </ul>
             <h3 className="font-bold text-xl text-gray-600 mb-4 mt-6 trackig-wide">Encore Paper</h3>
             <ul className="list-disc list-inside">
               <li><strong className="font-semibold md:w-52 md:inline-block">Submission Deadline:</strong> &nbsp;1 Sep, 2023</li>
-              <li><strong className="font-semibold md:w-52 md:inline-block">Registration Deadline:</strong> &nbsp;30 Sep, 2023</li>
+              <li><strong className="font-semibold md:w-52 md:inline-block">Registration Deadline:</strong> &nbsp;7 Oct, 2023&nbsp;&nbsp;<span className="line-through text-gray-400">30 Sep, 2023</span></li>
             </ul>
             <h3 className="font-bold text-xl text-gray-600 mb-4 mt-6 trackig-wide">Shepherding Paper</h3>
             <ul className="list-disc list-inside">
@@ -113,7 +116,7 @@ export default function Home() {
               </li>
               <li><strong className="font-semibold md:w-52 md:inline-block">Camera-Ready Deadline:</strong> &nbsp;15 Sep, 2023 (already accepted)<br className="hidden md:block"/>
                 <strong className="font-semibold md:w-56 md:inline-block"></strong> &nbsp;22 Sep, 2023 (revision)</li>
-              <li><strong className="font-semibold md:w-52 md:inline-block">Registration Deadline:</strong> &nbsp;30 Sep, 2023</li>
+              <li><strong className="font-semibold md:w-52 md:inline-block">Registration Deadline:</strong> &nbsp;7 Oct, 2023&nbsp;&nbsp;<span className="line-through text-gray-400">30 Sep, 2023</span></li>
             </ul>
             <h3 className="font-bold text-xl text-gray-600 mb-4 mt-6 trackig-wide">Conference Dates</h3>
             <ul className="list-disc list-inside">

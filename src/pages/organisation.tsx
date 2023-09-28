@@ -109,6 +109,11 @@ const committee: Committee = [
     ]
   },
   {
+    "type": "Student Volunteer Chair", "items": [
+      { "name": "Zhuowei Zhao", "affiliation": "University of Melbourne", "image": "zhuowei-zhao.jpeg", "url": "https://www.zhuoweizhao.me" }
+    ]
+  },
+  {
     "type": "Sponsorship Chair", "items": [
       { "name": "Shazia Sadiq", "affiliation": "University of Queensland", "image": "shazia-sadiq.jpg", "url": "https://eecs.uq.edu.au/profile/1844/shazia-sadiq" },
     ]
