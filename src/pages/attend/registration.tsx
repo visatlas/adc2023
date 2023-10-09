@@ -9,6 +9,10 @@ export default function Registration() {
       <SEO title="Registration" />
       <div className="px-5 md:px-8 lg:px-10">
         <h2 className="mt-10 md:mt-14 uppercase text-3xl font-bold text-orange-600 tracking-wide mb-8">Registration</h2>
+
+        <p className="mb-4">Every accepted paper in the research or shepherding track needs one author registration.</p>
+        <p className="mb-8">Authors of accepted papers, after completing the registration, can contact Hui Luo (<a className="underline" href="mailto:huil@uow.edu.au" target="_blank" rel="noreferrer">huil@uow.edu.au</a>) to seek an invitation letter (if needed). Please attach your registration completion evidence to facilitate the process.</p>
+
         <article className="pb-10">
           <h4 className="font-semibold text-xl">Author Registration</h4>
           <ul className="list-disc ml-6 mt-2">

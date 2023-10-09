@@ -63,6 +63,9 @@ export default function Home() {
             <h2 className="uppercase text-3xl font-bold text-orange-600 tracking-wide mb-5 mt-12">News</h2>
             <ul className="list-disc list-inside space-y-5">
               <li>
+                <strong>9 Oct, 2023:</strong> &nbsp;Every accepted paper in the research or shepherding track needs one author registration. Authors of accepted papers, after completing the registration, can contact Hui Luo (<a className="underline" href="mailto:huil@uow.edu.au" target="_blank" rel="noreferrer">huil@uow.edu.au</a>) to seek an invitation letter (if needed). Please attach your registration completion evidence to facilitate the process.
+              </li>
+              <li>
                 <strong>28 Sep, 2023:</strong> &nbsp;Deadline for all registrations has been <span className="font-semibold">extended to 7 October, 2023</span>.
               </li>
               <li>
