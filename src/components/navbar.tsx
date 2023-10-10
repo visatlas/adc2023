@@ -218,7 +218,7 @@ export const Navbar = () => {
       </nav>
 
       {/* Mobile Menu */}
-      <nav className="h-[4em] flex md:hidden">
+      <nav className="h-[4em] flex md:hidden" style={{zIndex: 9999}}>
         <Bars3Icon className="w-8 h-8 m-auto hover:text-orange-600 cursor-pointer" onClick={() => setIsOpen(true)} />
         {isOpen && (
           <div className="absolute top-0 left-0 z-10 bg-gray-900 w-full pb-4">
@@ -237,7 +237,7 @@ export const Navbar = () => {
               </div>
             </div>
 
-            <div className="flex justify-end w-full">
+            <div className="flex justify-end w-full" style={{ zIndex: 9999 }}>
               <ul className="flex flex-col items-end w-[15rem]">
                 <li className="text-sm w-full font-bold uppercase tracking-wider hover:text-orange-600 text-gray-100 duration-100">
                   <Link className="py-2 block pr-6 w-full text-end" href="/">Home</Link>
