@@ -50,9 +50,9 @@ export default function KeynoteTalks() {
           <div className="border-t-2 border-dotted mt-16 mb-8 bg-gray-400 mx-[-1em]"></div>
           <p className="text-orange-600 uppercase tracking-[0.2em] mb-2 font-semibold">KEYNOTE TALK</p>
 
-          <h3 className="font-bold text-2xl text-gray-800 mb-6">Coming Soon</h3>
+          <h3 className="font-bold text-2xl text-gray-800 mb-6">How Do Large Language Models Capture the Ever-changing World Knowledge? A Review of Recent Advances</h3>
           <h3 className="font-bold text-xl text-gray-600 mb-4">&#9654;&nbsp;&nbsp;Abstract</h3>
-          <p className="px-0 md:px-7">Coming Soon.</p>
+          <p className="px-0 md:px-7">Large language models (LLMs) have shown impressive performance in solving various tasks. However, as the world is constantly changing and new information is being generated every day, the trained LLM can be quickly outdated without re-training, which can be a time-consuming and resource-intensive process. Consequently, maintaining LLMs up-to-date status is a pressing concern in the current era. In this talk, I will provide a review of recent advances in aligning LLMs with the ever-changing world knowledge without re-training from scratch, by categorizing research works and providing in-depth comparisons and discussion. I will also discuss existing challenges and highlight future directions to facilitate research in this field.</p>
           <h3 className="mt-7 font-bold text-xl text-gray-600 mb-5">&#9654;&nbsp;&nbsp;Speaker</h3>
           <div className="flex w-[20em] sm:w-[25em] px-0 md:px-7">
             <a className="border rounded-lg overflow-hidden mr-3 min-w-[60px] min-h-[60px] w-[60px] h-[60px] bg-gray-200" href="https://profiles.uts.edu.au/Ling.Chen" target="_blank" rel="noreferrer">
