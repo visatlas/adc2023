@@ -63,6 +63,9 @@ export default function Home() {
             <h2 className="uppercase text-3xl font-bold text-orange-600 tracking-wide mb-5 mt-12">News</h2>
             <ul className="list-disc list-inside space-y-5">
               <li>
+                <strong>30 Oct, 2023:</strong> &nbsp;Presentation Guideline: The projector in the seminar room supports USB Type-C, HDMI, mini-HDMI, and DP ports. There will also be a laptop for uploading and presenting slides. It is recommended to export slides into PDFs to avoid opening/formatting issues if planning to present on the prepared laptop. Online presentations are not supported.
+              </li>
+              <li>
                 <strong>10 Oct, 2023:</strong> &nbsp;<span className="font-semibold">The program structure for ADC 2023 <a className="underline" href="/ADC_2023_Program_Structure.pdf" target="_blank" rel="noreferrer">can be accessed from here</a>. (Update 25 Oct, 2023: Added banquet venue)</span>
               </li>
               <li>
