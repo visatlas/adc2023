@@ -302,6 +302,13 @@
         "title": "Representative Routes Discovery From Massive Trajectories",
         "venue": "KDD22",
         "authors": "Tingting Wang, Shixun Huang, Zhifeng Bao, J. Shane Culpepper, Reza Arablouei"
+      },
+      {
+        "id": 24,
+        "submitAuthor": "Mohammad Abuhassan",
+        "title": "EDNet: Attention-Based Multimodal Representation for Classification of Twitter Users Related to Eating Disorders",
+        "venue": "WWW 2023",
+        "authors": "Mohammad Abuhassan, Tarique Anwar, Chengfei Liu, Hannah K Jarman, Matthew Fuller-Tyszkiewicz"
       }
     ]
   }
