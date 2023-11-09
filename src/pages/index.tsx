@@ -63,6 +63,9 @@ export default function Home() {
             <h2 className="uppercase text-3xl font-bold text-orange-600 tracking-wide mb-5 mt-12">News</h2>
             <ul className="list-disc list-inside space-y-5">
               <li>
+                <strong>9 Nov, 2023:</strong> &nbsp;<span className="font-semibold">The proceedings of ADC 2023 is now available online on Springer. <a className="underline" href="https://link.springer.com/book/10.1007/978-3-031-47843-7" target="_blank" rel="noreferrer">Click here to view</a>.</span>
+              </li>
+              <li>
                 <strong>30 Oct, 2023:</strong> &nbsp;<span className="font-semibold">The program structure for ADC 2023 <a className="underline" href="/ADC_2023_Program_Structure.pdf" target="_blank" rel="noreferrer">can be accessed from here</a>. (Updated 30 Oct, 2023)</span>
               </li>
               <li>
