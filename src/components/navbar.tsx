@@ -107,7 +107,6 @@ export const Navbar = () => {
                 <div className='px-1 py-1'>
                   <Menu.Item>
                     {({ active }) => (<a href="https://link.springer.com/book/10.1007/978-3-031-47843-7"
-                      target="_blank" rel="noreferrer"
                       className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 font-medium rounded-md')}>
                       Proceedings <ArrowTopRightOnSquareIcon className="w-3 h-3 inline-block" aria-hidden="true" />
                     </a>)}
@@ -225,7 +224,7 @@ export const Navbar = () => {
       </nav>
 
       {/* Mobile Menu */}
-      <nav className="h-[4em] flex md:hidden" style={{zIndex: 9999}}>
+      <nav className="h-[4em] flex md:hidden" style={{ zIndex: 9999 }}>
         <Bars3Icon className="w-8 h-8 m-auto hover:text-orange-600 cursor-pointer" onClick={() => setIsOpen(true)} />
         {isOpen && (
           <div className="absolute top-0 left-0 z-10 bg-gray-900 w-full pb-4">
@@ -291,7 +290,7 @@ export const Navbar = () => {
                   <>
                     <div className="h-[1px] w-full bg-orange-600"></div>
                     <li className="text-sm w-full font-bold tracking-wide hover:text-orange-600 text-gray-100 duration-100 bg-gray-800">
-                      <a className="py-2 block pr-6 w-full text-end" href="https://link.springer.com/book/10.1007/978-3-031-47843-7" target="_blank" rel="noreferrer">
+                      <a className="py-2 block pr-6 w-full text-end" href="https://link.springer.com/book/10.1007/978-3-031-47843-7">
                         Proceedings <ArrowTopRightOnSquareIcon className="w-3 h-3 inline-block" aria-hidden="true" />
                       </a>
                     </li>
